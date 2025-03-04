@@ -1,0 +1,64 @@
+[0.028s] Invoking command in '/home/ztl/ROS_humble_LIO/build/lio_sam': AMENT_PREFIX_PATH=/home/ztl/ROS_humble_LIO/install/autorccar_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ztl/ROS_humble_LIO/install/autorccar_interfaces:/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ztl/ROS_humble_LIO/build/lio_sam -- -j8 -l8
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_c[0m
+[0.236s] [  2%] Built target lio_sam__cpp
+[0.241s] [  2%] Built target ament_cmake_python_copy_lio_sam
+[0.268s] [ 10%] Built target lio_sam__rosidl_generator_c
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_cpp[0m
+[0.289s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_cpp[0m
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp[0m
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c[0m
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c[0m
+[0.332s] [ 19%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.339s] [ 27%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c[0m
+[0.355s] [ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.358s] [ 44%] Built target lio_sam__rosidl_typesupport_cpp
+[0.386s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.403s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[0.404s] [ 61%] Built target lio_sam__rosidl_typesupport_c
+[0.409s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_featureExtraction[0m
+[0.420s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization[0m
+[0.444s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[0.537s] [ 61%] Built target lio_sam
+[0.620s] [ 63%] Built target lio_sam__py
+[0.620s] [ 68%] Built target lio_sam_imageProjection
+[0.634s] [ 72%] Built target lio_sam_imuPreintegration
+[0.642s] [ 76%] Built target lio_sam_featureExtraction
+[0.642s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_py[0m
+[0.667s] [ 78%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[0.670s] [ 85%] Built target lio_sam__rosidl_generator_py
+[0.697s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c__pyext[0m
+[0.697s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.721s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext[0m
+[0.723s] [ 89%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.747s] [ 93%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.755s] [ 97%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.919s] running egg_info
+[0.922s] writing lio_sam.egg-info/PKG-INFO
+[0.922s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.923s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.929s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.932s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[1.032s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[34.218s] [01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In constructor ‘[01m[KmapOptimization::mapOptimization(const rclcpp::NodeOptions&)[m[K’:
+[34.218s] [01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:238:80:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kbool mapOptimization::saveMapService()[m[K’
+[34.219s]   238 |         srvSaveMap = create_service<lio_sam::srv::SaveMap>("lio_sam/save_map", [01;31m[KsaveMapService[m[K);
+[34.220s]       |                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[34.220s] [01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:422:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[34.221s]   422 |     bool [01;36m[KsaveMapService[m[K()
+[34.222s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[34.294s] [01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kbool mapOptimization::saveMapService()[m[K’:
+[34.294s] [01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:428:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+[34.295s]   428 |             if([01;31m[Kreq[m[K.destination.empty()) saveMapDirectory = std::getenv("HOME") + savePCDDirectory;
+[34.296s]       |                [01;31m[K^~~[m[K
+[34.337s] [01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:469:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+[34.337s]   469 |             if([01;31m[Kreq[m[K.resolution != 0)
+[34.338s]       |                [01;31m[K^~~[m[K
+[34.378s] [01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:492:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope; did you mean ‘[01m[Kret[m[K’?
+[34.378s]   492 |             [01;31m[Kres[m[K.success = ret == 0;
+[34.378s]       |             [01;31m[K^~~[m[K
+[34.378s]       |             [32m[Kret[m[K
+[95.788s] gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76：CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] 错误 1
+[95.789s] gmake[1]: *** [CMakeFiles/Makefile2:680：CMakeFiles/lio_sam_mapOptimization.dir/all] 错误 2
+[95.789s] gmake: *** [Makefile:146：all] 错误 2
+[95.794s] Invoked command in '/home/ztl/ROS_humble_LIO/build/lio_sam' returned '2': AMENT_PREFIX_PATH=/home/ztl/ROS_humble_LIO/install/autorccar_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ztl/ROS_humble_LIO/install/autorccar_interfaces:/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ztl/ROS_humble_LIO/build/lio_sam -- -j8 -l8

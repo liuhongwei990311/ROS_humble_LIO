@@ -1,0 +1,2324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000764] (autorccar_interfaces) JobQueued: {'identifier': 'autorccar_interfaces', 'dependencies': OrderedDict()}
+[0.001096] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict([('autorccar_interfaces', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces')])}
+[0.001669] (autorccar_interfaces) JobStarted: {'identifier': 'autorccar_interfaces'}
+[0.020533] (autorccar_interfaces) JobProgress: {'identifier': 'autorccar_interfaces', 'progress': 'cmake'}
+[0.022267] (autorccar_interfaces) JobProgress: {'identifier': 'autorccar_interfaces', 'progress': 'build'}
+[0.024148] (autorccar_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ztl/ROS_humble_LIO/build/autorccar_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/ztl/ROS_humble_LIO/build/autorccar_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ztl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam/lib:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces/lib:/home/ztl/project/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ztl'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1138'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e38796444bff260aed25fbd367c59363'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ztl/pointcloud2pcd/install:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install:/home/ztl/project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ztl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ztl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/3588:@/tmp/.ICE-unix/1138,unix/3588:/tmp/.ICE-unix/1138'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15001a7c_95e8_42c3_83ca_8e6400d20d5f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ztl/ROS_humble_LIO/build/autorccar_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e38796444bff260aed25fbd367c59363'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam/local/lib/python3.10/dist-packages:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces/local/lib/python3.10/dist-packages:/home/ztl/project/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[0.097405] (-) TimerEvent: {}
+[0.197869] (-) TimerEvent: {}
+[0.200191] (autorccar_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_autorccar_interfaces\n'}
+[0.219261] (autorccar_interfaces) StdoutLine: {'line': b'[ 11%] Built target autorccar_interfaces__rosidl_generator_c\n'}
+[0.228932] (autorccar_interfaces) StdoutLine: {'line': b'[ 12%] Built target autorccar_interfaces__cpp\n'}
+[0.293296] (autorccar_interfaces) StdoutLine: {'line': b'[ 24%] Built target autorccar_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.298051] (-) TimerEvent: {}
+[0.306691] (autorccar_interfaces) StdoutLine: {'line': b'[ 35%] Built target autorccar_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.317437] (autorccar_interfaces) StdoutLine: {'line': b'[ 58%] Built target autorccar_interfaces__rosidl_typesupport_cpp\n'}
+[0.317835] (autorccar_interfaces) StdoutLine: {'line': b'[ 58%] Built target autorccar_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.323504] (autorccar_interfaces) StdoutLine: {'line': b'[ 69%] Built target autorccar_interfaces__rosidl_typesupport_c\n'}
+[0.373270] (autorccar_interfaces) StdoutLine: {'line': b'[ 81%] Built target autorccar_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.398282] (-) TimerEvent: {}
+[0.439892] (autorccar_interfaces) StdoutLine: {'line': b'[ 81%] Built target autorccar_interfaces\n'}
+[0.498494] (-) TimerEvent: {}
+[0.512218] (autorccar_interfaces) StdoutLine: {'line': b'[ 82%] Built target autorccar_interfaces__py\n'}
+[0.598691] (-) TimerEvent: {}
+[0.611879] (autorccar_interfaces) StdoutLine: {'line': b'[ 92%] Built target autorccar_interfaces__rosidl_generator_py\n'}
+[0.671704] (autorccar_interfaces) StdoutLine: {'line': b'[ 94%] Built target autorccar_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.681529] (autorccar_interfaces) StdoutLine: {'line': b'[ 97%] Built target autorccar_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.698782] (-) TimerEvent: {}
+[0.709172] (autorccar_interfaces) StdoutLine: {'line': b'[100%] Built target autorccar_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.798904] (-) TimerEvent: {}
+[0.886521] (autorccar_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.888918] (autorccar_interfaces) StdoutLine: {'line': b'writing autorccar_interfaces.egg-info/PKG-INFO\n'}
+[0.889488] (autorccar_interfaces) StdoutLine: {'line': b'writing dependency_links to autorccar_interfaces.egg-info/dependency_links.txt\n'}
+[0.890322] (autorccar_interfaces) StdoutLine: {'line': b'writing top-level names to autorccar_interfaces.egg-info/top_level.txt\n'}
+[0.895805] (autorccar_interfaces) StdoutLine: {'line': b"reading manifest file 'autorccar_interfaces.egg-info/SOURCES.txt'\n"}
+[0.897451] (autorccar_interfaces) StdoutLine: {'line': b"writing manifest file 'autorccar_interfaces.egg-info/SOURCES.txt'\n"}
+[0.898979] (-) TimerEvent: {}
+[0.973344] (autorccar_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_autorccar_interfaces_egg\n'}
+[0.995920] (autorccar_interfaces) CommandEnded: {'returncode': 0}
+[0.997778] (autorccar_interfaces) JobProgress: {'identifier': 'autorccar_interfaces', 'progress': 'install'}
+[0.999154] (-) TimerEvent: {}
+[1.037046] (autorccar_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ztl/ROS_humble_LIO/build/autorccar_interfaces'], 'cwd': '/home/ztl/ROS_humble_LIO/build/autorccar_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ztl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam/lib:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces/lib:/home/ztl/project/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ztl'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1138'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e38796444bff260aed25fbd367c59363'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ztl/pointcloud2pcd/install:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install:/home/ztl/project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ztl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ztl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/3588:@/tmp/.ICE-unix/1138,unix/3588:/tmp/.ICE-unix/1138'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15001a7c_95e8_42c3_83ca_8e6400d20d5f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ztl/ROS_humble_LIO/build/autorccar_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e38796444bff260aed25fbd367c59363'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam/local/lib/python3.10/dist-packages:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces/local/lib/python3.10/dist-packages:/home/ztl/project/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[1.056718] (autorccar_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.057863] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/ament_index/resource_index/rosidl_interfaces/autorccar_interfaces\n'}
+[1.059183] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces\n'}
+[1.060392] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg\n'}
+[1.061500] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/bounding_boxes.h\n'}
+[1.062574] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail\n'}
+[1.063511] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__struct.h\n'}
+[1.064621] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__functions.h\n'}
+[1.065839] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__functions.c\n'}
+[1.066752] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__functions.h\n'}
+[1.068059] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__functions.h\n'}
+[1.068791] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__type_support.h\n'}
+[1.069513] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__struct.h\n'}
+[1.070282] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__type_support.h\n'}
+[1.070999] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__functions.h\n'}
+[1.071737] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__functions.h\n'}
+[1.072418] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__functions.c\n'}
+[1.073097] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__struct.h\n'}
+[1.073777] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__type_support.h\n'}
+[1.074499] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__functions.h\n'}
+[1.075251] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__type_support.h\n'}
+[1.075930] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__functions.c\n'}
+[1.076608] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__struct.h\n'}
+[1.077282] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__functions.c\n'}
+[1.078018] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__type_support.h\n'}
+[1.078717] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__type_support.h\n'}
+[1.079397] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__struct.h\n'}
+[1.080057] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__struct.h\n'}
+[1.080712] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__functions.c\n'}
+[1.081414] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__struct.h\n'}
+[1.082072] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__functions.c\n'}
+[1.082720] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__functions.c\n'}
+[1.083373] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__functions.h\n'}
+[1.084033] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__type_support.h\n'}
+[1.084722] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/gnss.h\n'}
+[1.085381] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/path.h\n'}
+[1.086028] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/path_point.h\n'}
+[1.086680] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/control_command.h\n'}
+[1.087333] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.088073] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/imu.h\n'}
+[1.088738] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/nav_state.h\n'}
+[1.089381] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/environment/library_path.sh\n'}
+[1.090025] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/environment/library_path.dsv\n'}
+[1.090673] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib/libautorccar_interfaces__rosidl_generator_c.so\n'}
+[1.091361] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces\n'}
+[1.092042] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg\n'}
+[1.092697] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail\n'}
+[1.093353] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094063] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094758] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h\n'}
+[1.095421] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_c.h\n'}
+[1.096081] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.096794] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__rosidl_typesupport_fastrtps_c.h\n'}
+[1.097464] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__rosidl_typesupport_fastrtps_c.h\n'}
+[1.098184] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.098860] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib/libautorccar_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.099547] (-) TimerEvent: {}
+[1.100163] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces\n'}
+[1.100926] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg\n'}
+[1.101724] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail\n'}
+[1.102430] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__struct.hpp\n'}
+[1.103095] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__traits.hpp\n'}
+[1.103747] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__struct.hpp\n'}
+[1.104431] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__type_support.hpp\n'}
+[1.105101] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__traits.hpp\n'}
+[1.105813] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__traits.hpp\n'}
+[1.106481] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__struct.hpp\n'}
+[1.107127] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__builder.hpp\n'}
+[1.107790] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__traits.hpp\n'}
+[1.108452] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__type_support.hpp\n'}
+[1.109105] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__builder.hpp\n'}
+[1.109748] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__struct.hpp\n'}
+[1.110391] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__type_support.hpp\n'}
+[1.111042] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__builder.hpp\n'}
+[1.111460] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__builder.hpp\n'}
+[1.111667] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__traits.hpp\n'}
+[1.111852] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__struct.hpp\n'}
+[1.112006] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__type_support.hpp\n'}
+[1.112153] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__struct.hpp\n'}
+[1.112300] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__struct.hpp\n'}
+[1.112520] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__type_support.hpp\n'}
+[1.112696] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__traits.hpp\n'}
+[1.112849] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__builder.hpp\n'}
+[1.113000] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__traits.hpp\n'}
+[1.113155] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__type_support.hpp\n'}
+[1.113301] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__type_support.hpp\n'}
+[1.113443] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__builder.hpp\n'}
+[1.113667] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__builder.hpp\n'}
+[1.113835] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/bounding_boxes.hpp\n'}
+[1.113996] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/imu.hpp\n'}
+[1.114143] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.114286] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/gnss.hpp\n'}
+[1.114470] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/control_command.hpp\n'}
+[1.114698] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/path.hpp\n'}
+[1.114902] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/nav_state.hpp\n'}
+[1.115053] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/path_point.hpp\n'}
+[1.115196] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces\n'}
+[1.115343] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg\n'}
+[1.115487] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail\n'}
+[1.115631] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.115779] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.115940] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.116085] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.116247] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/dds_fastrtps\n'}
+[1.116399] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.116544] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.116687] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.116829] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.116974] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib/libautorccar_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.117119] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces\n'}
+[1.117261] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg\n'}
+[1.117405] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail\n'}
+[1.117547] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h\n'}
+[1.117691] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__rosidl_typesupport_introspection_c.h\n'}
+[1.117854] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__type_support.c\n'}
+[1.118000] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__type_support.c\n'}
+[1.118147] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__rosidl_typesupport_introspection_c.h\n'}
+[1.118298] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__type_support.c\n'}
+[1.118443] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__type_support.c\n'}
+[1.118586] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__type_support.c\n'}
+[1.118727] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__type_support.c\n'}
+[1.118870] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h\n'}
+[1.119012] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__rosidl_typesupport_introspection_c.h\n'}
+[1.119164] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__rosidl_typesupport_introspection_c.h\n'}
+[1.119306] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__rosidl_typesupport_introspection_c.h\n'}
+[1.119447] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__type_support.c\n'}
+[1.119588] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.119732] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib/libautorccar_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.119873] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib/libautorccar_interfaces__rosidl_typesupport_c.so\n'}
+[1.120027] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces\n'}
+[1.120172] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg\n'}
+[1.120313] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail\n'}
+[1.120457] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__type_support.cpp\n'}
+[1.120599] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.120740] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__type_support.cpp\n'}
+[1.120882] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__type_support.cpp\n'}
+[1.121028] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.121189] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__type_support.cpp\n'}
+[1.121333] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.121475] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path__type_support.cpp\n'}
+[1.121616] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/gnss__type_support.cpp\n'}
+[1.121765] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__type_support.cpp\n'}
+[1.121916] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/control_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.122060] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.122203] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/nav_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.122345] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/include/autorccar_interfaces/autorccar_interfaces/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.122488] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib/libautorccar_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.122631] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib/libautorccar_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.122775] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/environment/pythonpath.sh\n'}
+[1.122915] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/environment/pythonpath.dsv\n'}
+[1.123056] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.123199] (autorccar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.123340] (autorccar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.123482] (autorccar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.123625] (autorccar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.123784] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces\n'}
+[1.123928] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/__init__.py\n'}
+[1.124069] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/autorccar_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.124214] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg\n'}
+[1.124355] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/__init__.py\n'}
+[1.124519] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_nav_state.py\n'}
+[1.124665] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_bounding_boxes_s.c\n'}
+[1.124810] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_control_command_s.c\n'}
+[1.124950] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_path_point_s.c\n'}
+[1.125092] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_path_s.c\n'}
+[1.125233] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_path.py\n'}
+[1.125459] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_imu_s.c\n'}
+[1.125639] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_gnss_s.c\n'}
+[1.125790] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_bounding_boxes.py\n'}
+[1.125938] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_gnss.py\n'}
+[1.126082] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_nav_state_s.c\n'}
+[1.126222] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_imu.py\n'}
+[1.126362] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_path_point.py\n'}
+[1.126502] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg/_control_command.py\n'}
+[1.126644] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/_autorccar_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.126789] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/autorccar_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.126938] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/libautorccar_interfaces__rosidl_generator_py.so\n'}
+[1.127080] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/_autorccar_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.127222] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/autorccar_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.127374] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/_autorccar_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.150413] (autorccar_interfaces) StdoutLine: {'line': b"Listing '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces'...\n"}
+[1.150900] (autorccar_interfaces) StdoutLine: {'line': b"Listing '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/msg'...\n"}
+[1.165269] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/autorccar_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.165860] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/autorccar_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.166395] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages/autorccar_interfaces/autorccar_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.166915] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib/libautorccar_interfaces__rosidl_generator_py.so\n'}
+[1.167292] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/Imu.idl\n'}
+[1.167595] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/Gnss.idl\n'}
+[1.167846] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/NavState.idl\n'}
+[1.168078] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/ControlCommand.idl\n'}
+[1.168323] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/Path.idl\n'}
+[1.168565] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/PathPoint.idl\n'}
+[1.168795] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/BoundingBoxes.idl\n'}
+[1.169006] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/Imu.msg\n'}
+[1.169212] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/Gnss.msg\n'}
+[1.169445] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/NavState.msg\n'}
+[1.169627] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/ControlCommand.msg\n'}
+[1.169779] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/Path.msg\n'}
+[1.169930] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/PathPoint.msg\n'}
+[1.170083] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/msg/BoundingBoxes.msg\n'}
+[1.170235] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/ament_index/resource_index/package_run_dependencies/autorccar_interfaces\n'}
+[1.170404] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/ament_index/resource_index/parent_prefix_path/autorccar_interfaces\n'}
+[1.170560] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/environment/ament_prefix_path.sh\n'}
+[1.170864] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.171047] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/environment/path.sh\n'}
+[1.171431] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/environment/path.dsv\n'}
+[1.171600] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/local_setup.bash\n'}
+[1.171765] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/local_setup.sh\n'}
+[1.172000] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/local_setup.zsh\n'}
+[1.172262] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/local_setup.dsv\n'}
+[1.172416] (autorccar_interfaces) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/package.dsv\n'}
+[1.172642] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/ament_index/resource_index/packages/autorccar_interfaces\n'}
+[1.172852] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.173071] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.173292] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.173517] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.173666] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.173809] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.173951] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.174094] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.174238] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.174407] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.174556] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.174699] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.174840] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.174983] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.175127] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.175269] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.175417] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/export_autorccar_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.175558] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.175700] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.175840] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.175984] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.176126] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.176266] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.176408] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.176548] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfacesConfig.cmake\n'}
+[1.176687] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/cmake/autorccar_interfacesConfig-version.cmake\n'}
+[1.176826] (autorccar_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/autorccar_interfaces/share/autorccar_interfaces/package.xml\n'}
+[1.199661] (-) TimerEvent: {}
+[1.300103] (-) TimerEvent: {}
+[1.389159] (autorccar_interfaces) CommandEnded: {'returncode': 0}
+[1.400287] (-) TimerEvent: {}
+[1.500744] (-) TimerEvent: {}
+[1.601275] (-) TimerEvent: {}
+[1.631503] (autorccar_interfaces) JobEnded: {'identifier': 'autorccar_interfaces', 'rc': 0}
+[1.634355] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[1.654621] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[1.657781] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[1.659606] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ztl/ROS_humble_LIO/build/lio_sam', '--', '-j8', '-l8'], 'cwd': '/home/ztl/ROS_humble_LIO/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ztl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam/lib:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces/lib:/home/ztl/project/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ztl'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1138'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e38796444bff260aed25fbd367c59363'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ztl/pointcloud2pcd/install:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install:/home/ztl/project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ztl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ztl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/3588:@/tmp/.ICE-unix/1138,unix/3588:/tmp/.ICE-unix/1138'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15001a7c_95e8_42c3_83ca_8e6400d20d5f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces:/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ztl/ROS_humble_LIO/build/lio_sam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e38796444bff260aed25fbd367c59363'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam/local/lib/python3.10/dist-packages:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces/local/lib/python3.10/dist-packages:/home/ztl/project/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces:/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[1.701435] (-) TimerEvent: {}
+[1.801898] (-) TimerEvent: {}
+[1.852914] (lio_sam) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_lio_sam\n'}
+[1.863289] (lio_sam) StdoutLine: {'line': b'[  8%] Built target lio_sam__rosidl_generator_c\n'}
+[1.881692] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target lio_sam__cpp\n'}
+[1.902074] (-) TimerEvent: {}
+[1.937689] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[1.952609] (lio_sam) StdoutLine: {'line': b'[ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[1.957989] (lio_sam) StdoutLine: {'line': b'[ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[1.958383] (lio_sam) StdoutLine: {'line': b'[ 44%] Built target lio_sam__rosidl_typesupport_c\n'}
+[1.974282] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[2.002295] (-) TimerEvent: {}
+[2.012653] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[2.065989] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization\x1b[0m\n'}
+[2.102428] (-) TimerEvent: {}
+[2.124323] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam_featureExtraction\n'}
+[2.135189] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam\n'}
+[2.147994] (lio_sam) StdoutLine: {'line': b'[ 70%] Built target lio_sam_imuPreintegration\n'}
+[2.192404] (lio_sam) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o\x1b[0m\n'}
+[2.202549] (-) TimerEvent: {}
+[2.209176] (lio_sam) StdoutLine: {'line': b'[ 74%] Built target lio_sam__py\n'}
+[2.212161] (lio_sam) StdoutLine: {'line': b'[ 78%] Built target lio_sam_imageProjection\n'}
+[2.265515] (lio_sam) StdoutLine: {'line': b'[ 85%] Built target lio_sam__rosidl_generator_py\n'}
+[2.302799] (-) TimerEvent: {}
+[2.327052] (lio_sam) StdoutLine: {'line': b'[ 89%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[2.345060] (lio_sam) StdoutLine: {'line': b'[ 93%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.365481] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[2.402920] (-) TimerEvent: {}
+[2.485375] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[2.487601] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[2.488280] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[2.489179] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[2.494695] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[2.496145] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[2.503187] (-) TimerEvent: {}
+[2.597933] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[2.603268] (-) TimerEvent: {}
+[2.703906] (-) TimerEvent: {}
+[2.805102] (-) TimerEvent: {}
+[2.906168] (-) TimerEvent: {}
+[3.007227] (-) TimerEvent: {}
+[3.108248] (-) TimerEvent: {}
+[3.209326] (-) TimerEvent: {}
+[3.310177] (-) TimerEvent: {}
+[3.410648] (-) TimerEvent: {}
+[3.511122] (-) TimerEvent: {}
+[3.611607] (-) TimerEvent: {}
+[3.712070] (-) TimerEvent: {}
+[3.812546] (-) TimerEvent: {}
+[3.913010] (-) TimerEvent: {}
+[4.013480] (-) TimerEvent: {}
+[4.113993] (-) TimerEvent: {}
+[4.214578] (-) TimerEvent: {}
+[4.315052] (-) TimerEvent: {}
+[4.415531] (-) TimerEvent: {}
+[4.516008] (-) TimerEvent: {}
+[4.616473] (-) TimerEvent: {}
+[4.716930] (-) TimerEvent: {}
+[4.817396] (-) TimerEvent: {}
+[4.917863] (-) TimerEvent: {}
+[5.018330] (-) TimerEvent: {}
+[5.118799] (-) TimerEvent: {}
+[5.219259] (-) TimerEvent: {}
+[5.319733] (-) TimerEvent: {}
+[5.420337] (-) TimerEvent: {}
+[5.521186] (-) TimerEvent: {}
+[5.621679] (-) TimerEvent: {}
+[5.722169] (-) TimerEvent: {}
+[5.822621] (-) TimerEvent: {}
+[5.923102] (-) TimerEvent: {}
+[6.023621] (-) TimerEvent: {}
+[6.124121] (-) TimerEvent: {}
+[6.224723] (-) TimerEvent: {}
+[6.325186] (-) TimerEvent: {}
+[6.425643] (-) TimerEvent: {}
+[6.526098] (-) TimerEvent: {}
+[6.626555] (-) TimerEvent: {}
+[6.727014] (-) TimerEvent: {}
+[6.827485] (-) TimerEvent: {}
+[6.927960] (-) TimerEvent: {}
+[7.028420] (-) TimerEvent: {}
+[7.129003] (-) TimerEvent: {}
+[7.229950] (-) TimerEvent: {}
+[7.330907] (-) TimerEvent: {}
+[7.431922] (-) TimerEvent: {}
+[7.532856] (-) TimerEvent: {}
+[7.633871] (-) TimerEvent: {}
+[7.734899] (-) TimerEvent: {}
+[7.835860] (-) TimerEvent: {}
+[7.936890] (-) TimerEvent: {}
+[8.037894] (-) TimerEvent: {}
+[8.138802] (-) TimerEvent: {}
+[8.239271] (-) TimerEvent: {}
+[8.339754] (-) TimerEvent: {}
+[8.440235] (-) TimerEvent: {}
+[8.540698] (-) TimerEvent: {}
+[8.641169] (-) TimerEvent: {}
+[8.741647] (-) TimerEvent: {}
+[8.842161] (-) TimerEvent: {}
+[8.942622] (-) TimerEvent: {}
+[9.043080] (-) TimerEvent: {}
+[9.143582] (-) TimerEvent: {}
+[9.244118] (-) TimerEvent: {}
+[9.344699] (-) TimerEvent: {}
+[9.445664] (-) TimerEvent: {}
+[9.546645] (-) TimerEvent: {}
+[9.647614] (-) TimerEvent: {}
+[9.748634] (-) TimerEvent: {}
+[9.849482] (-) TimerEvent: {}
+[9.949947] (-) TimerEvent: {}
+[10.050413] (-) TimerEvent: {}
+[10.150880] (-) TimerEvent: {}
+[10.251353] (-) TimerEvent: {}
+[10.351813] (-) TimerEvent: {}
+[10.452443] (-) TimerEvent: {}
+[10.553449] (-) TimerEvent: {}
+[10.654481] (-) TimerEvent: {}
+[10.755448] (-) TimerEvent: {}
+[10.856401] (-) TimerEvent: {}
+[10.957284] (-) TimerEvent: {}
+[11.057780] (-) TimerEvent: {}
+[11.158262] (-) TimerEvent: {}
+[11.258733] (-) TimerEvent: {}
+[11.359229] (-) TimerEvent: {}
+[11.459859] (-) TimerEvent: {}
+[11.561110] (-) TimerEvent: {}
+[11.662276] (-) TimerEvent: {}
+[11.763365] (-) TimerEvent: {}
+[11.864521] (-) TimerEvent: {}
+[11.965413] (-) TimerEvent: {}
+[12.065921] (-) TimerEvent: {}
+[12.166392] (-) TimerEvent: {}
+[12.266865] (-) TimerEvent: {}
+[12.367348] (-) TimerEvent: {}
+[12.467825] (-) TimerEvent: {}
+[12.568401] (-) TimerEvent: {}
+[12.669379] (-) TimerEvent: {}
+[12.770388] (-) TimerEvent: {}
+[12.871411] (-) TimerEvent: {}
+[12.972389] (-) TimerEvent: {}
+[13.073389] (-) TimerEvent: {}
+[13.174257] (-) TimerEvent: {}
+[13.274753] (-) TimerEvent: {}
+[13.375238] (-) TimerEvent: {}
+[13.475713] (-) TimerEvent: {}
+[13.576148] (-) TimerEvent: {}
+[13.676606] (-) TimerEvent: {}
+[13.777067] (-) TimerEvent: {}
+[13.877527] (-) TimerEvent: {}
+[13.978001] (-) TimerEvent: {}
+[14.078462] (-) TimerEvent: {}
+[14.178931] (-) TimerEvent: {}
+[14.279406] (-) TimerEvent: {}
+[14.379872] (-) TimerEvent: {}
+[14.480336] (-) TimerEvent: {}
+[14.580796] (-) TimerEvent: {}
+[14.681277] (-) TimerEvent: {}
+[14.781751] (-) TimerEvent: {}
+[14.882210] (-) TimerEvent: {}
+[14.982683] (-) TimerEvent: {}
+[15.083175] (-) TimerEvent: {}
+[15.183639] (-) TimerEvent: {}
+[15.284107] (-) TimerEvent: {}
+[15.384595] (-) TimerEvent: {}
+[15.485063] (-) TimerEvent: {}
+[15.585536] (-) TimerEvent: {}
+[15.686094] (-) TimerEvent: {}
+[15.787089] (-) TimerEvent: {}
+[15.888069] (-) TimerEvent: {}
+[15.989074] (-) TimerEvent: {}
+[16.090159] (-) TimerEvent: {}
+[16.191173] (-) TimerEvent: {}
+[16.292071] (-) TimerEvent: {}
+[16.392543] (-) TimerEvent: {}
+[16.493013] (-) TimerEvent: {}
+[16.593486] (-) TimerEvent: {}
+[16.693961] (-) TimerEvent: {}
+[16.794437] (-) TimerEvent: {}
+[16.894918] (-) TimerEvent: {}
+[16.995408] (-) TimerEvent: {}
+[17.095909] (-) TimerEvent: {}
+[17.196429] (-) TimerEvent: {}
+[17.296891] (-) TimerEvent: {}
+[17.397354] (-) TimerEvent: {}
+[17.497835] (-) TimerEvent: {}
+[17.598300] (-) TimerEvent: {}
+[17.698762] (-) TimerEvent: {}
+[17.799223] (-) TimerEvent: {}
+[17.899706] (-) TimerEvent: {}
+[18.000270] (-) TimerEvent: {}
+[18.101260] (-) TimerEvent: {}
+[18.202319] (-) TimerEvent: {}
+[18.303291] (-) TimerEvent: {}
+[18.404261] (-) TimerEvent: {}
+[18.505230] (-) TimerEvent: {}
+[18.605701] (-) TimerEvent: {}
+[18.706166] (-) TimerEvent: {}
+[18.806716] (-) TimerEvent: {}
+[18.907779] (-) TimerEvent: {}
+[19.008792] (-) TimerEvent: {}
+[19.109775] (-) TimerEvent: {}
+[19.210601] (-) TimerEvent: {}
+[19.311084] (-) TimerEvent: {}
+[19.411553] (-) TimerEvent: {}
+[19.512015] (-) TimerEvent: {}
+[19.612479] (-) TimerEvent: {}
+[19.712952] (-) TimerEvent: {}
+[19.813416] (-) TimerEvent: {}
+[19.913918] (-) TimerEvent: {}
+[20.014456] (-) TimerEvent: {}
+[20.114924] (-) TimerEvent: {}
+[20.215402] (-) TimerEvent: {}
+[20.315891] (-) TimerEvent: {}
+[20.416373] (-) TimerEvent: {}
+[20.517207] (-) TimerEvent: {}
+[20.617705] (-) TimerEvent: {}
+[20.718186] (-) TimerEvent: {}
+[20.818656] (-) TimerEvent: {}
+[20.919125] (-) TimerEvent: {}
+[21.019771] (-) TimerEvent: {}
+[21.120736] (-) TimerEvent: {}
+[21.221742] (-) TimerEvent: {}
+[21.322736] (-) TimerEvent: {}
+[21.423774] (-) TimerEvent: {}
+[21.524717] (-) TimerEvent: {}
+[21.625658] (-) TimerEvent: {}
+[21.726670] (-) TimerEvent: {}
+[21.827722] (-) TimerEvent: {}
+[21.928701] (-) TimerEvent: {}
+[22.029603] (-) TimerEvent: {}
+[22.130551] (-) TimerEvent: {}
+[22.231529] (-) TimerEvent: {}
+[22.332351] (-) TimerEvent: {}
+[22.432819] (-) TimerEvent: {}
+[22.533296] (-) TimerEvent: {}
+[22.633769] (-) TimerEvent: {}
+[22.734241] (-) TimerEvent: {}
+[22.834731] (-) TimerEvent: {}
+[22.935204] (-) TimerEvent: {}
+[23.035702] (-) TimerEvent: {}
+[23.136165] (-) TimerEvent: {}
+[23.236628] (-) TimerEvent: {}
+[23.337124] (-) TimerEvent: {}
+[23.437612] (-) TimerEvent: {}
+[23.538134] (-) TimerEvent: {}
+[23.638617] (-) TimerEvent: {}
+[23.739083] (-) TimerEvent: {}
+[23.839560] (-) TimerEvent: {}
+[23.940051] (-) TimerEvent: {}
+[24.040525] (-) TimerEvent: {}
+[24.141039] (-) TimerEvent: {}
+[24.241614] (-) TimerEvent: {}
+[24.342527] (-) TimerEvent: {}
+[24.443011] (-) TimerEvent: {}
+[24.543489] (-) TimerEvent: {}
+[24.643953] (-) TimerEvent: {}
+[24.744439] (-) TimerEvent: {}
+[24.844909] (-) TimerEvent: {}
+[24.945483] (-) TimerEvent: {}
+[25.046521] (-) TimerEvent: {}
+[25.147385] (-) TimerEvent: {}
+[25.247904] (-) TimerEvent: {}
+[25.348519] (-) TimerEvent: {}
+[25.449630] (-) TimerEvent: {}
+[25.550528] (-) TimerEvent: {}
+[25.651010] (-) TimerEvent: {}
+[25.751504] (-) TimerEvent: {}
+[25.851989] (-) TimerEvent: {}
+[25.952466] (-) TimerEvent: {}
+[26.052941] (-) TimerEvent: {}
+[26.153409] (-) TimerEvent: {}
+[26.253900] (-) TimerEvent: {}
+[26.354365] (-) TimerEvent: {}
+[26.454843] (-) TimerEvent: {}
+[26.555320] (-) TimerEvent: {}
+[26.655829] (-) TimerEvent: {}
+[26.756394] (-) TimerEvent: {}
+[26.857379] (-) TimerEvent: {}
+[26.958238] (-) TimerEvent: {}
+[27.058737] (-) TimerEvent: {}
+[27.159228] (-) TimerEvent: {}
+[27.259708] (-) TimerEvent: {}
+[27.360184] (-) TimerEvent: {}
+[27.460651] (-) TimerEvent: {}
+[27.561135] (-) TimerEvent: {}
+[27.661599] (-) TimerEvent: {}
+[27.762094] (-) TimerEvent: {}
+[27.862573] (-) TimerEvent: {}
+[27.963136] (-) TimerEvent: {}
+[28.064154] (-) TimerEvent: {}
+[28.165372] (-) TimerEvent: {}
+[28.266354] (-) TimerEvent: {}
+[28.366835] (-) TimerEvent: {}
+[28.467312] (-) TimerEvent: {}
+[28.567805] (-) TimerEvent: {}
+[28.668296] (-) TimerEvent: {}
+[28.768773] (-) TimerEvent: {}
+[28.869349] (-) TimerEvent: {}
+[28.970262] (-) TimerEvent: {}
+[29.071186] (-) TimerEvent: {}
+[29.172146] (-) TimerEvent: {}
+[29.273044] (-) TimerEvent: {}
+[29.373528] (-) TimerEvent: {}
+[29.474008] (-) TimerEvent: {}
+[29.574489] (-) TimerEvent: {}
+[29.674957] (-) TimerEvent: {}
+[29.775436] (-) TimerEvent: {}
+[29.875914] (-) TimerEvent: {}
+[29.976446] (-) TimerEvent: {}
+[30.076969] (-) TimerEvent: {}
+[30.177943] (-) TimerEvent: {}
+[30.278863] (-) TimerEvent: {}
+[30.379862] (-) TimerEvent: {}
+[30.480733] (-) TimerEvent: {}
+[30.581224] (-) TimerEvent: {}
+[30.681686] (-) TimerEvent: {}
+[30.782161] (-) TimerEvent: {}
+[30.882642] (-) TimerEvent: {}
+[30.983109] (-) TimerEvent: {}
+[31.083676] (-) TimerEvent: {}
+[31.184664] (-) TimerEvent: {}
+[31.285644] (-) TimerEvent: {}
+[31.386598] (-) TimerEvent: {}
+[31.487464] (-) TimerEvent: {}
+[31.587962] (-) TimerEvent: {}
+[31.688435] (-) TimerEvent: {}
+[31.789014] (-) TimerEvent: {}
+[31.889980] (-) TimerEvent: {}
+[31.990923] (-) TimerEvent: {}
+[32.091960] (-) TimerEvent: {}
+[32.192808] (-) TimerEvent: {}
+[32.293368] (-) TimerEvent: {}
+[32.394345] (-) TimerEvent: {}
+[32.495331] (-) TimerEvent: {}
+[32.596337] (-) TimerEvent: {}
+[32.697326] (-) TimerEvent: {}
+[32.798317] (-) TimerEvent: {}
+[32.899211] (-) TimerEvent: {}
+[32.999678] (-) TimerEvent: {}
+[33.100173] (-) TimerEvent: {}
+[33.200655] (-) TimerEvent: {}
+[33.301132] (-) TimerEvent: {}
+[33.401691] (-) TimerEvent: {}
+[33.502702] (-) TimerEvent: {}
+[33.603670] (-) TimerEvent: {}
+[33.704692] (-) TimerEvent: {}
+[33.805630] (-) TimerEvent: {}
+[33.906576] (-) TimerEvent: {}
+[34.007519] (-) TimerEvent: {}
+[34.108465] (-) TimerEvent: {}
+[34.209398] (-) TimerEvent: {}
+[34.310334] (-) TimerEvent: {}
+[34.411263] (-) TimerEvent: {}
+[34.512105] (-) TimerEvent: {}
+[34.612575] (-) TimerEvent: {}
+[34.713039] (-) TimerEvent: {}
+[34.813473] (-) TimerEvent: {}
+[34.913947] (-) TimerEvent: {}
+[35.014473] (-) TimerEvent: {}
+[35.114935] (-) TimerEvent: {}
+[35.215393] (-) TimerEvent: {}
+[35.315866] (-) TimerEvent: {}
+[35.416327] (-) TimerEvent: {}
+[35.516878] (-) TimerEvent: {}
+[35.617753] (-) TimerEvent: {}
+[35.718224] (-) TimerEvent: {}
+[35.818698] (-) TimerEvent: {}
+[35.919187] (-) TimerEvent: {}
+[36.019652] (-) TimerEvent: {}
+[36.120247] (-) TimerEvent: {}
+[36.221256] (-) TimerEvent: {}
+[36.322109] (-) TimerEvent: {}
+[36.422585] (-) TimerEvent: {}
+[36.523063] (-) TimerEvent: {}
+[36.623530] (-) TimerEvent: {}
+[36.724003] (-) TimerEvent: {}
+[36.824483] (-) TimerEvent: {}
+[36.924956] (-) TimerEvent: {}
+[37.025419] (-) TimerEvent: {}
+[37.125897] (-) TimerEvent: {}
+[37.226375] (-) TimerEvent: {}
+[37.326845] (-) TimerEvent: {}
+[37.427310] (-) TimerEvent: {}
+[37.527907] (-) TimerEvent: {}
+[37.628891] (-) TimerEvent: {}
+[37.729366] (-) TimerEvent: {}
+[37.829841] (-) TimerEvent: {}
+[37.930316] (-) TimerEvent: {}
+[38.030781] (-) TimerEvent: {}
+[38.131363] (-) TimerEvent: {}
+[38.232243] (-) TimerEvent: {}
+[38.332744] (-) TimerEvent: {}
+[38.433219] (-) TimerEvent: {}
+[38.533687] (-) TimerEvent: {}
+[38.634157] (-) TimerEvent: {}
+[38.734631] (-) TimerEvent: {}
+[38.835096] (-) TimerEvent: {}
+[38.935561] (-) TimerEvent: {}
+[39.036249] (-) TimerEvent: {}
+[39.137230] (-) TimerEvent: {}
+[39.238273] (-) TimerEvent: {}
+[39.339361] (-) TimerEvent: {}
+[39.440289] (-) TimerEvent: {}
+[39.540761] (-) TimerEvent: {}
+[39.641271] (-) TimerEvent: {}
+[39.741739] (-) TimerEvent: {}
+[39.842206] (-) TimerEvent: {}
+[39.942677] (-) TimerEvent: {}
+[40.043241] (-) TimerEvent: {}
+[40.144093] (-) TimerEvent: {}
+[40.244573] (-) TimerEvent: {}
+[40.345053] (-) TimerEvent: {}
+[40.445514] (-) TimerEvent: {}
+[40.545993] (-) TimerEvent: {}
+[40.646453] (-) TimerEvent: {}
+[40.746923] (-) TimerEvent: {}
+[40.847394] (-) TimerEvent: {}
+[40.947889] (-) TimerEvent: {}
+[41.048355] (-) TimerEvent: {}
+[41.148933] (-) TimerEvent: {}
+[41.249968] (-) TimerEvent: {}
+[41.350955] (-) TimerEvent: {}
+[41.451957] (-) TimerEvent: {}
+[41.552778] (-) TimerEvent: {}
+[41.653261] (-) TimerEvent: {}
+[41.753750] (-) TimerEvent: {}
+[41.854225] (-) TimerEvent: {}
+[41.954720] (-) TimerEvent: {}
+[42.055166] (-) TimerEvent: {}
+[42.155644] (-) TimerEvent: {}
+[42.256167] (-) TimerEvent: {}
+[42.356654] (-) TimerEvent: {}
+[42.457219] (-) TimerEvent: {}
+[42.558243] (-) TimerEvent: {}
+[42.659191] (-) TimerEvent: {}
+[42.760181] (-) TimerEvent: {}
+[42.861227] (-) TimerEvent: {}
+[42.962442] (-) TimerEvent: {}
+[43.063557] (-) TimerEvent: {}
+[43.164568] (-) TimerEvent: {}
+[43.265442] (-) TimerEvent: {}
+[43.365908] (-) TimerEvent: {}
+[43.466372] (-) TimerEvent: {}
+[43.566851] (-) TimerEvent: {}
+[43.667345] (-) TimerEvent: {}
+[43.767828] (-) TimerEvent: {}
+[43.868402] (-) TimerEvent: {}
+[43.969587] (-) TimerEvent: {}
+[44.070555] (-) TimerEvent: {}
+[44.171602] (-) TimerEvent: {}
+[44.272553] (-) TimerEvent: {}
+[44.373525] (-) TimerEvent: {}
+[44.474472] (-) TimerEvent: {}
+[44.575012] (-) TimerEvent: {}
+[44.675470] (-) TimerEvent: {}
+[44.775929] (-) TimerEvent: {}
+[44.876396] (-) TimerEvent: {}
+[44.976867] (-) TimerEvent: {}
+[45.077338] (-) TimerEvent: {}
+[45.177822] (-) TimerEvent: {}
+[45.278412] (-) TimerEvent: {}
+[45.379446] (-) TimerEvent: {}
+[45.479949] (-) TimerEvent: {}
+[45.580498] (-) TimerEvent: {}
+[45.681009] (-) TimerEvent: {}
+[45.781524] (-) TimerEvent: {}
+[45.882028] (-) TimerEvent: {}
+[45.982523] (-) TimerEvent: {}
+[46.083044] (-) TimerEvent: {}
+[46.183619] (-) TimerEvent: {}
+[46.286003] (-) TimerEvent: {}
+[46.386975] (-) TimerEvent: {}
+[46.487466] (-) TimerEvent: {}
+[46.587968] (-) TimerEvent: {}
+[46.688440] (-) TimerEvent: {}
+[46.788904] (-) TimerEvent: {}
+[46.889505] (-) TimerEvent: {}
+[46.990526] (-) TimerEvent: {}
+[47.091537] (-) TimerEvent: {}
+[47.192668] (-) TimerEvent: {}
+[47.293669] (-) TimerEvent: {}
+[47.394173] (-) TimerEvent: {}
+[47.494690] (-) TimerEvent: {}
+[47.595157] (-) TimerEvent: {}
+[47.695614] (-) TimerEvent: {}
+[47.796100] (-) TimerEvent: {}
+[47.896582] (-) TimerEvent: {}
+[47.997065] (-) TimerEvent: {}
+[48.097538] (-) TimerEvent: {}
+[48.198058] (-) TimerEvent: {}
+[48.298717] (-) TimerEvent: {}
+[48.399820] (-) TimerEvent: {}
+[48.500791] (-) TimerEvent: {}
+[48.601737] (-) TimerEvent: {}
+[48.702209] (-) TimerEvent: {}
+[48.802686] (-) TimerEvent: {}
+[48.903198] (-) TimerEvent: {}
+[49.003861] (-) TimerEvent: {}
+[49.104813] (-) TimerEvent: {}
+[49.205331] (-) TimerEvent: {}
+[49.305979] (-) TimerEvent: {}
+[49.407150] (-) TimerEvent: {}
+[49.508249] (-) TimerEvent: {}
+[49.608821] (-) TimerEvent: {}
+[49.709802] (-) TimerEvent: {}
+[49.810777] (-) TimerEvent: {}
+[49.911782] (-) TimerEvent: {}
+[50.012756] (-) TimerEvent: {}
+[50.113634] (-) TimerEvent: {}
+[50.214120] (-) TimerEvent: {}
+[50.314620] (-) TimerEvent: {}
+[50.415059] (-) TimerEvent: {}
+[50.515537] (-) TimerEvent: {}
+[50.616055] (-) TimerEvent: {}
+[50.716604] (-) TimerEvent: {}
+[50.817077] (-) TimerEvent: {}
+[50.917716] (-) TimerEvent: {}
+[51.018735] (-) TimerEvent: {}
+[51.119232] (-) TimerEvent: {}
+[51.219767] (-) TimerEvent: {}
+[51.320369] (-) TimerEvent: {}
+[51.420958] (-) TimerEvent: {}
+[51.522126] (-) TimerEvent: {}
+[51.623195] (-) TimerEvent: {}
+[51.724160] (-) TimerEvent: {}
+[51.825184] (-) TimerEvent: {}
+[51.926171] (-) TimerEvent: {}
+[52.027155] (-) TimerEvent: {}
+[52.128119] (-) TimerEvent: {}
+[52.229079] (-) TimerEvent: {}
+[52.330051] (-) TimerEvent: {}
+[52.430523] (-) TimerEvent: {}
+[52.530990] (-) TimerEvent: {}
+[52.631479] (-) TimerEvent: {}
+[52.731948] (-) TimerEvent: {}
+[52.832418] (-) TimerEvent: {}
+[52.932889] (-) TimerEvent: {}
+[53.033368] (-) TimerEvent: {}
+[53.133877] (-) TimerEvent: {}
+[53.234370] (-) TimerEvent: {}
+[53.334854] (-) TimerEvent: {}
+[53.435325] (-) TimerEvent: {}
+[53.535788] (-) TimerEvent: {}
+[53.636266] (-) TimerEvent: {}
+[53.736749] (-) TimerEvent: {}
+[53.837345] (-) TimerEvent: {}
+[53.938416] (-) TimerEvent: {}
+[54.039407] (-) TimerEvent: {}
+[54.140398] (-) TimerEvent: {}
+[54.241612] (-) TimerEvent: {}
+[54.342778] (-) TimerEvent: {}
+[54.443778] (-) TimerEvent: {}
+[54.544783] (-) TimerEvent: {}
+[54.645710] (-) TimerEvent: {}
+[54.746183] (-) TimerEvent: {}
+[54.846658] (-) TimerEvent: {}
+[54.947132] (-) TimerEvent: {}
+[55.047600] (-) TimerEvent: {}
+[55.148095] (-) TimerEvent: {}
+[55.248561] (-) TimerEvent: {}
+[55.349093] (-) TimerEvent: {}
+[55.449572] (-) TimerEvent: {}
+[55.550141] (-) TimerEvent: {}
+[55.651146] (-) TimerEvent: {}
+[55.752097] (-) TimerEvent: {}
+[55.853053] (-) TimerEvent: {}
+[55.954024] (-) TimerEvent: {}
+[56.054933] (-) TimerEvent: {}
+[56.155417] (-) TimerEvent: {}
+[56.255913] (-) TimerEvent: {}
+[56.356363] (-) TimerEvent: {}
+[56.456838] (-) TimerEvent: {}
+[56.557308] (-) TimerEvent: {}
+[56.657793] (-) TimerEvent: {}
+[56.758256] (-) TimerEvent: {}
+[56.858724] (-) TimerEvent: {}
+[56.959190] (-) TimerEvent: {}
+[57.059676] (-) TimerEvent: {}
+[57.160149] (-) TimerEvent: {}
+[57.260650] (-) TimerEvent: {}
+[57.361146] (-) TimerEvent: {}
+[57.461606] (-) TimerEvent: {}
+[57.562065] (-) TimerEvent: {}
+[57.662532] (-) TimerEvent: {}
+[57.763008] (-) TimerEvent: {}
+[57.863480] (-) TimerEvent: {}
+[57.963955] (-) TimerEvent: {}
+[58.064433] (-) TimerEvent: {}
+[58.164910] (-) TimerEvent: {}
+[58.265381] (-) TimerEvent: {}
+[58.365862] (-) TimerEvent: {}
+[58.466360] (-) TimerEvent: {}
+[58.566867] (-) TimerEvent: {}
+[58.667336] (-) TimerEvent: {}
+[58.767819] (-) TimerEvent: {}
+[58.868297] (-) TimerEvent: {}
+[58.968766] (-) TimerEvent: {}
+[59.069226] (-) TimerEvent: {}
+[59.169693] (-) TimerEvent: {}
+[59.270258] (-) TimerEvent: {}
+[59.371156] (-) TimerEvent: {}
+[59.471650] (-) TimerEvent: {}
+[59.572136] (-) TimerEvent: {}
+[59.672615] (-) TimerEvent: {}
+[59.773083] (-) TimerEvent: {}
+[59.873555] (-) TimerEvent: {}
+[59.974033] (-) TimerEvent: {}
+[60.074625] (-) TimerEvent: {}
+[60.175631] (-) TimerEvent: {}
+[60.276614] (-) TimerEvent: {}
+[60.377574] (-) TimerEvent: {}
+[60.478593] (-) TimerEvent: {}
+[60.579563] (-) TimerEvent: {}
+[60.680556] (-) TimerEvent: {}
+[60.781654] (-) TimerEvent: {}
+[60.882837] (-) TimerEvent: {}
+[60.983689] (-) TimerEvent: {}
+[61.084181] (-) TimerEvent: {}
+[61.184719] (-) TimerEvent: {}
+[61.285212] (-) TimerEvent: {}
+[61.385686] (-) TimerEvent: {}
+[61.486169] (-) TimerEvent: {}
+[61.586653] (-) TimerEvent: {}
+[61.687132] (-) TimerEvent: {}
+[61.787718] (-) TimerEvent: {}
+[61.888762] (-) TimerEvent: {}
+[61.989726] (-) TimerEvent: {}
+[62.090723] (-) TimerEvent: {}
+[62.191811] (-) TimerEvent: {}
+[62.292799] (-) TimerEvent: {}
+[62.393831] (-) TimerEvent: {}
+[62.494834] (-) TimerEvent: {}
+[62.595797] (-) TimerEvent: {}
+[62.696755] (-) TimerEvent: {}
+[62.797801] (-) TimerEvent: {}
+[62.898680] (-) TimerEvent: {}
+[62.999172] (-) TimerEvent: {}
+[63.099659] (-) TimerEvent: {}
+[63.200131] (-) TimerEvent: {}
+[63.300606] (-) TimerEvent: {}
+[63.401092] (-) TimerEvent: {}
+[63.501563] (-) TimerEvent: {}
+[63.602032] (-) TimerEvent: {}
+[63.702519] (-) TimerEvent: {}
+[63.802988] (-) TimerEvent: {}
+[63.903452] (-) TimerEvent: {}
+[64.003911] (-) TimerEvent: {}
+[64.104378] (-) TimerEvent: {}
+[64.204998] (-) TimerEvent: {}
+[64.306048] (-) TimerEvent: {}
+[64.407065] (-) TimerEvent: {}
+[64.508069] (-) TimerEvent: {}
+[64.609003] (-) TimerEvent: {}
+[64.709928] (-) TimerEvent: {}
+[64.810848] (-) TimerEvent: {}
+[64.911366] (-) TimerEvent: {}
+[65.011840] (-) TimerEvent: {}
+[65.112308] (-) TimerEvent: {}
+[65.212775] (-) TimerEvent: {}
+[65.313246] (-) TimerEvent: {}
+[65.413727] (-) TimerEvent: {}
+[65.514204] (-) TimerEvent: {}
+[65.614691] (-) TimerEvent: {}
+[65.715172] (-) TimerEvent: {}
+[65.815663] (-) TimerEvent: {}
+[65.916134] (-) TimerEvent: {}
+[66.016617] (-) TimerEvent: {}
+[66.117091] (-) TimerEvent: {}
+[66.217563] (-) TimerEvent: {}
+[66.318152] (-) TimerEvent: {}
+[66.419178] (-) TimerEvent: {}
+[66.520120] (-) TimerEvent: {}
+[66.621112] (-) TimerEvent: {}
+[66.722082] (-) TimerEvent: {}
+[66.823258] (-) TimerEvent: {}
+[66.924256] (-) TimerEvent: {}
+[67.025214] (-) TimerEvent: {}
+[67.125688] (-) TimerEvent: {}
+[67.226209] (-) TimerEvent: {}
+[67.326707] (-) TimerEvent: {}
+[67.427175] (-) TimerEvent: {}
+[67.527651] (-) TimerEvent: {}
+[67.628149] (-) TimerEvent: {}
+[67.728617] (-) TimerEvent: {}
+[67.829080] (-) TimerEvent: {}
+[67.929551] (-) TimerEvent: {}
+[68.030019] (-) TimerEvent: {}
+[68.130486] (-) TimerEvent: {}
+[68.231116] (-) TimerEvent: {}
+[68.332156] (-) TimerEvent: {}
+[68.433160] (-) TimerEvent: {}
+[68.534124] (-) TimerEvent: {}
+[68.635151] (-) TimerEvent: {}
+[68.736045] (-) TimerEvent: {}
+[68.836519] (-) TimerEvent: {}
+[68.937007] (-) TimerEvent: {}
+[69.037490] (-) TimerEvent: {}
+[69.137975] (-) TimerEvent: {}
+[69.238449] (-) TimerEvent: {}
+[69.338929] (-) TimerEvent: {}
+[69.439410] (-) TimerEvent: {}
+[69.539887] (-) TimerEvent: {}
+[69.640346] (-) TimerEvent: {}
+[69.740823] (-) TimerEvent: {}
+[69.841306] (-) TimerEvent: {}
+[69.941768] (-) TimerEvent: {}
+[70.042244] (-) TimerEvent: {}
+[70.142699] (-) TimerEvent: {}
+[70.243385] (-) TimerEvent: {}
+[70.344598] (-) TimerEvent: {}
+[70.445610] (-) TimerEvent: {}
+[70.546673] (-) TimerEvent: {}
+[70.647640] (-) TimerEvent: {}
+[70.748641] (-) TimerEvent: {}
+[70.849664] (-) TimerEvent: {}
+[70.950663] (-) TimerEvent: {}
+[71.051579] (-) TimerEvent: {}
+[71.152063] (-) TimerEvent: {}
+[71.252535] (-) TimerEvent: {}
+[71.353004] (-) TimerEvent: {}
+[71.453506] (-) TimerEvent: {}
+[71.554026] (-) TimerEvent: {}
+[71.654587] (-) TimerEvent: {}
+[71.755219] (-) TimerEvent: {}
+[71.856513] (-) TimerEvent: {}
+[71.957080] (-) TimerEvent: {}
+[72.057678] (-) TimerEvent: {}
+[72.158214] (-) TimerEvent: {}
+[72.258744] (-) TimerEvent: {}
+[72.359225] (-) TimerEvent: {}
+[72.459702] (-) TimerEvent: {}
+[72.560191] (-) TimerEvent: {}
+[72.660669] (-) TimerEvent: {}
+[72.761207] (-) TimerEvent: {}
+[72.861653] (-) TimerEvent: {}
+[72.962095] (-) TimerEvent: {}
+[73.062540] (-) TimerEvent: {}
+[73.162997] (-) TimerEvent: {}
+[73.263449] (-) TimerEvent: {}
+[73.363901] (-) TimerEvent: {}
+[73.464370] (-) TimerEvent: {}
+[73.564890] (-) TimerEvent: {}
+[73.665347] (-) TimerEvent: {}
+[73.765815] (-) TimerEvent: {}
+[73.866277] (-) TimerEvent: {}
+[73.966742] (-) TimerEvent: {}
+[74.067206] (-) TimerEvent: {}
+[74.167791] (-) TimerEvent: {}
+[74.268796] (-) TimerEvent: {}
+[74.369910] (-) TimerEvent: {}
+[74.471046] (-) TimerEvent: {}
+[74.572047] (-) TimerEvent: {}
+[74.672994] (-) TimerEvent: {}
+[74.773969] (-) TimerEvent: {}
+[74.874931] (-) TimerEvent: {}
+[74.975398] (-) TimerEvent: {}
+[75.075848] (-) TimerEvent: {}
+[75.176306] (-) TimerEvent: {}
+[75.276860] (-) TimerEvent: {}
+[75.377822] (-) TimerEvent: {}
+[75.478657] (-) TimerEvent: {}
+[75.579129] (-) TimerEvent: {}
+[75.679604] (-) TimerEvent: {}
+[75.780063] (-) TimerEvent: {}
+[75.880550] (-) TimerEvent: {}
+[75.981002] (-) TimerEvent: {}
+[76.081472] (-) TimerEvent: {}
+[76.181975] (-) TimerEvent: {}
+[76.282548] (-) TimerEvent: {}
+[76.383047] (-) TimerEvent: {}
+[76.483505] (-) TimerEvent: {}
+[76.583976] (-) TimerEvent: {}
+[76.684476] (-) TimerEvent: {}
+[76.785033] (-) TimerEvent: {}
+[76.885999] (-) TimerEvent: {}
+[76.986961] (-) TimerEvent: {}
+[77.087945] (-) TimerEvent: {}
+[77.188900] (-) TimerEvent: {}
+[77.289856] (-) TimerEvent: {}
+[77.390850] (-) TimerEvent: {}
+[77.491853] (-) TimerEvent: {}
+[77.592802] (-) TimerEvent: {}
+[77.693710] (-) TimerEvent: {}
+[77.794670] (-) TimerEvent: {}
+[77.895462] (-) TimerEvent: {}
+[77.995937] (-) TimerEvent: {}
+[78.096396] (-) TimerEvent: {}
+[78.196871] (-) TimerEvent: {}
+[78.297333] (-) TimerEvent: {}
+[78.397805] (-) TimerEvent: {}
+[78.498265] (-) TimerEvent: {}
+[78.598719] (-) TimerEvent: {}
+[78.699194] (-) TimerEvent: {}
+[78.799655] (-) TimerEvent: {}
+[78.900115] (-) TimerEvent: {}
+[79.000587] (-) TimerEvent: {}
+[79.101185] (-) TimerEvent: {}
+[79.202160] (-) TimerEvent: {}
+[79.303131] (-) TimerEvent: {}
+[79.403939] (-) TimerEvent: {}
+[79.504401] (-) TimerEvent: {}
+[79.605044] (-) TimerEvent: {}
+[79.705981] (-) TimerEvent: {}
+[79.806911] (-) TimerEvent: {}
+[79.907888] (-) TimerEvent: {}
+[80.008710] (-) TimerEvent: {}
+[80.109169] (-) TimerEvent: {}
+[80.209620] (-) TimerEvent: {}
+[80.310090] (-) TimerEvent: {}
+[80.410548] (-) TimerEvent: {}
+[80.511173] (-) TimerEvent: {}
+[80.612167] (-) TimerEvent: {}
+[80.713055] (-) TimerEvent: {}
+[80.813963] (-) TimerEvent: {}
+[80.914800] (-) TimerEvent: {}
+[81.015264] (-) TimerEvent: {}
+[81.115728] (-) TimerEvent: {}
+[81.216183] (-) TimerEvent: {}
+[81.316666] (-) TimerEvent: {}
+[81.417129] (-) TimerEvent: {}
+[81.517622] (-) TimerEvent: {}
+[81.618097] (-) TimerEvent: {}
+[81.718574] (-) TimerEvent: {}
+[81.819113] (-) TimerEvent: {}
+[81.920087] (-) TimerEvent: {}
+[82.021102] (-) TimerEvent: {}
+[82.122065] (-) TimerEvent: {}
+[82.223056] (-) TimerEvent: {}
+[82.324130] (-) TimerEvent: {}
+[82.424987] (-) TimerEvent: {}
+[82.525440] (-) TimerEvent: {}
+[82.625920] (-) TimerEvent: {}
+[82.726398] (-) TimerEvent: {}
+[82.826871] (-) TimerEvent: {}
+[82.927343] (-) TimerEvent: {}
+[83.027841] (-) TimerEvent: {}
+[83.128293] (-) TimerEvent: {}
+[83.228758] (-) TimerEvent: {}
+[83.329328] (-) TimerEvent: {}
+[83.430315] (-) TimerEvent: {}
+[83.531168] (-) TimerEvent: {}
+[83.631639] (-) TimerEvent: {}
+[83.732093] (-) TimerEvent: {}
+[83.832562] (-) TimerEvent: {}
+[83.933050] (-) TimerEvent: {}
+[84.033514] (-) TimerEvent: {}
+[84.133991] (-) TimerEvent: {}
+[84.234511] (-) TimerEvent: {}
+[84.335025] (-) TimerEvent: {}
+[84.435512] (-) TimerEvent: {}
+[84.536022] (-) TimerEvent: {}
+[84.636670] (-) TimerEvent: {}
+[84.737863] (-) TimerEvent: {}
+[84.838928] (-) TimerEvent: {}
+[84.939945] (-) TimerEvent: {}
+[85.040900] (-) TimerEvent: {}
+[85.141393] (-) TimerEvent: {}
+[85.241856] (-) TimerEvent: {}
+[85.342529] (-) TimerEvent: {}
+[85.443495] (-) TimerEvent: {}
+[85.544535] (-) TimerEvent: {}
+[85.645434] (-) TimerEvent: {}
+[85.746337] (-) TimerEvent: {}
+[85.847175] (-) TimerEvent: {}
+[85.947636] (-) TimerEvent: {}
+[86.048110] (-) TimerEvent: {}
+[86.148573] (-) TimerEvent: {}
+[86.249026] (-) TimerEvent: {}
+[86.349484] (-) TimerEvent: {}
+[86.449939] (-) TimerEvent: {}
+[86.550402] (-) TimerEvent: {}
+[86.650861] (-) TimerEvent: {}
+[86.751342] (-) TimerEvent: {}
+[86.851796] (-) TimerEvent: {}
+[86.952264] (-) TimerEvent: {}
+[87.052749] (-) TimerEvent: {}
+[87.153198] (-) TimerEvent: {}
+[87.253691] (-) TimerEvent: {}
+[87.354139] (-) TimerEvent: {}
+[87.454633] (-) TimerEvent: {}
+[87.555123] (-) TimerEvent: {}
+[87.655579] (-) TimerEvent: {}
+[87.756053] (-) TimerEvent: {}
+[87.856519] (-) TimerEvent: {}
+[87.956993] (-) TimerEvent: {}
+[88.057451] (-) TimerEvent: {}
+[88.158030] (-) TimerEvent: {}
+[88.258943] (-) TimerEvent: {}
+[88.359445] (-) TimerEvent: {}
+[88.459896] (-) TimerEvent: {}
+[88.560357] (-) TimerEvent: {}
+[88.660814] (-) TimerEvent: {}
+[88.761304] (-) TimerEvent: {}
+[88.861921] (-) TimerEvent: {}
+[88.962770] (-) TimerEvent: {}
+[89.063260] (-) TimerEvent: {}
+[89.163730] (-) TimerEvent: {}
+[89.264181] (-) TimerEvent: {}
+[89.364815] (-) TimerEvent: {}
+[89.466029] (-) TimerEvent: {}
+[89.566969] (-) TimerEvent: {}
+[89.668082] (-) TimerEvent: {}
+[89.769029] (-) TimerEvent: {}
+[89.869957] (-) TimerEvent: {}
+[89.970920] (-) TimerEvent: {}
+[90.071864] (-) TimerEvent: {}
+[90.172334] (-) TimerEvent: {}
+[90.272902] (-) TimerEvent: {}
+[90.373954] (-) TimerEvent: {}
+[90.475009] (-) TimerEvent: {}
+[90.575964] (-) TimerEvent: {}
+[90.676896] (-) TimerEvent: {}
+[90.777913] (-) TimerEvent: {}
+[90.879118] (-) TimerEvent: {}
+[90.980271] (-) TimerEvent: {}
+[91.081237] (-) TimerEvent: {}
+[91.182190] (-) TimerEvent: {}
+[91.283023] (-) TimerEvent: {}
+[91.383512] (-) TimerEvent: {}
+[91.483996] (-) TimerEvent: {}
+[91.584471] (-) TimerEvent: {}
+[91.684925] (-) TimerEvent: {}
+[91.785365] (-) TimerEvent: {}
+[91.885801] (-) TimerEvent: {}
+[91.986250] (-) TimerEvent: {}
+[92.086695] (-) TimerEvent: {}
+[92.187247] (-) TimerEvent: {}
+[92.288237] (-) TimerEvent: {}
+[92.389350] (-) TimerEvent: {}
+[92.490300] (-) TimerEvent: {}
+[92.591127] (-) TimerEvent: {}
+[92.691584] (-) TimerEvent: {}
+[92.792046] (-) TimerEvent: {}
+[92.892502] (-) TimerEvent: {}
+[92.992967] (-) TimerEvent: {}
+[93.093445] (-) TimerEvent: {}
+[93.193910] (-) TimerEvent: {}
+[93.294399] (-) TimerEvent: {}
+[93.394861] (-) TimerEvent: {}
+[93.495323] (-) TimerEvent: {}
+[93.595804] (-) TimerEvent: {}
+[93.696303] (-) TimerEvent: {}
+[93.796770] (-) TimerEvent: {}
+[93.897225] (-) TimerEvent: {}
+[93.997688] (-) TimerEvent: {}
+[94.098290] (-) TimerEvent: {}
+[94.199374] (-) TimerEvent: {}
+[94.300291] (-) TimerEvent: {}
+[94.401371] (-) TimerEvent: {}
+[94.502337] (-) TimerEvent: {}
+[94.603302] (-) TimerEvent: {}
+[94.704283] (-) TimerEvent: {}
+[94.805190] (-) TimerEvent: {}
+[94.905674] (-) TimerEvent: {}
+[95.006145] (-) TimerEvent: {}
+[95.106620] (-) TimerEvent: {}
+[95.207089] (-) TimerEvent: {}
+[95.307549] (-) TimerEvent: {}
+[95.408018] (-) TimerEvent: {}
+[95.508472] (-) TimerEvent: {}
+[95.608948] (-) TimerEvent: {}
+[95.709420] (-) TimerEvent: {}
+[95.809901] (-) TimerEvent: {}
+[95.910371] (-) TimerEvent: {}
+[96.010835] (-) TimerEvent: {}
+[96.111304] (-) TimerEvent: {}
+[96.211760] (-) TimerEvent: {}
+[96.312222] (-) TimerEvent: {}
+[96.412680] (-) TimerEvent: {}
+[96.513135] (-) TimerEvent: {}
+[96.613596] (-) TimerEvent: {}
+[96.714059] (-) TimerEvent: {}
+[96.814523] (-) TimerEvent: {}
+[96.914985] (-) TimerEvent: {}
+[97.015444] (-) TimerEvent: {}
+[97.115902] (-) TimerEvent: {}
+[97.216399] (-) TimerEvent: {}
+[97.316885] (-) TimerEvent: {}
+[97.417340] (-) TimerEvent: {}
+[97.517822] (-) TimerEvent: {}
+[97.618303] (-) TimerEvent: {}
+[97.718879] (-) TimerEvent: {}
+[97.819834] (-) TimerEvent: {}
+[97.920676] (-) TimerEvent: {}
+[98.021150] (-) TimerEvent: {}
+[98.121609] (-) TimerEvent: {}
+[98.222061] (-) TimerEvent: {}
+[98.322518] (-) TimerEvent: {}
+[98.422978] (-) TimerEvent: {}
+[98.523429] (-) TimerEvent: {}
+[98.623896] (-) TimerEvent: {}
+[98.724408] (-) TimerEvent: {}
+[98.824879] (-) TimerEvent: {}
+[98.925345] (-) TimerEvent: {}
+[99.025906] (-) TimerEvent: {}
+[99.126850] (-) TimerEvent: {}
+[99.227923] (-) TimerEvent: {}
+[99.328898] (-) TimerEvent: {}
+[99.429857] (-) TimerEvent: {}
+[99.530796] (-) TimerEvent: {}
+[99.631310] (-) TimerEvent: {}
+[99.731759] (-) TimerEvent: {}
+[99.832218] (-) TimerEvent: {}
+[99.932694] (-) TimerEvent: {}
+[100.033172] (-) TimerEvent: {}
+[100.133629] (-) TimerEvent: {}
+[100.234158] (-) TimerEvent: {}
+[100.334628] (-) TimerEvent: {}
+[100.435079] (-) TimerEvent: {}
+[100.535632] (-) TimerEvent: {}
+[100.636080] (-) TimerEvent: {}
+[100.736532] (-) TimerEvent: {}
+[100.836991] (-) TimerEvent: {}
+[100.937455] (-) TimerEvent: {}
+[101.038033] (-) TimerEvent: {}
+[101.138964] (-) TimerEvent: {}
+[101.239918] (-) TimerEvent: {}
+[101.340868] (-) TimerEvent: {}
+[101.441850] (-) TimerEvent: {}
+[101.542787] (-) TimerEvent: {}
+[101.643745] (-) TimerEvent: {}
+[101.744705] (-) TimerEvent: {}
+[101.845608] (-) TimerEvent: {}
+[101.946416] (-) TimerEvent: {}
+[102.046869] (-) TimerEvent: {}
+[102.147319] (-) TimerEvent: {}
+[102.247780] (-) TimerEvent: {}
+[102.348367] (-) TimerEvent: {}
+[102.449355] (-) TimerEvent: {}
+[102.549811] (-) TimerEvent: {}
+[102.650296] (-) TimerEvent: {}
+[102.750790] (-) TimerEvent: {}
+[102.851284] (-) TimerEvent: {}
+[102.951775] (-) TimerEvent: {}
+[103.052284] (-) TimerEvent: {}
+[103.152764] (-) TimerEvent: {}
+[103.253291] (-) TimerEvent: {}
+[103.353867] (-) TimerEvent: {}
+[103.454897] (-) TimerEvent: {}
+[103.555824] (-) TimerEvent: {}
+[103.656275] (-) TimerEvent: {}
+[103.756737] (-) TimerEvent: {}
+[103.857191] (-) TimerEvent: {}
+[103.957662] (-) TimerEvent: {}
+[104.058177] (-) TimerEvent: {}
+[104.158672] (-) TimerEvent: {}
+[104.260445] (-) TimerEvent: {}
+[104.360978] (-) TimerEvent: {}
+[104.461520] (-) TimerEvent: {}
+[104.561992] (-) TimerEvent: {}
+[104.662482] (-) TimerEvent: {}
+[104.762969] (-) TimerEvent: {}
+[104.863420] (-) TimerEvent: {}
+[104.963865] (-) TimerEvent: {}
+[105.064324] (-) TimerEvent: {}
+[105.164919] (-) TimerEvent: {}
+[105.266061] (-) TimerEvent: {}
+[105.367076] (-) TimerEvent: {}
+[105.468175] (-) TimerEvent: {}
+[105.568621] (-) TimerEvent: {}
+[105.669074] (-) TimerEvent: {}
+[105.769532] (-) TimerEvent: {}
+[105.869981] (-) TimerEvent: {}
+[105.970455] (-) TimerEvent: {}
+[106.070927] (-) TimerEvent: {}
+[106.171418] (-) TimerEvent: {}
+[106.271893] (-) TimerEvent: {}
+[106.372405] (-) TimerEvent: {}
+[106.472858] (-) TimerEvent: {}
+[106.573310] (-) TimerEvent: {}
+[106.673907] (-) TimerEvent: {}
+[106.774972] (-) TimerEvent: {}
+[106.875962] (-) TimerEvent: {}
+[106.976925] (-) TimerEvent: {}
+[107.077911] (-) TimerEvent: {}
+[107.178875] (-) TimerEvent: {}
+[107.279864] (-) TimerEvent: {}
+[107.380750] (-) TimerEvent: {}
+[107.481243] (-) TimerEvent: {}
+[107.581695] (-) TimerEvent: {}
+[107.682266] (-) TimerEvent: {}
+[107.783295] (-) TimerEvent: {}
+[107.884209] (-) TimerEvent: {}
+[107.984684] (-) TimerEvent: {}
+[108.085170] (-) TimerEvent: {}
+[108.185650] (-) TimerEvent: {}
+[108.286124] (-) TimerEvent: {}
+[108.386596] (-) TimerEvent: {}
+[108.487067] (-) TimerEvent: {}
+[108.587531] (-) TimerEvent: {}
+[108.687995] (-) TimerEvent: {}
+[108.788450] (-) TimerEvent: {}
+[108.888913] (-) TimerEvent: {}
+[108.989382] (-) TimerEvent: {}
+[109.089837] (-) TimerEvent: {}
+[109.190290] (-) TimerEvent: {}
+[109.290740] (-) TimerEvent: {}
+[109.391193] (-) TimerEvent: {}
+[109.491639] (-) TimerEvent: {}
+[109.592094] (-) TimerEvent: {}
+[109.692549] (-) TimerEvent: {}
+[109.793005] (-) TimerEvent: {}
+[109.893469] (-) TimerEvent: {}
+[109.993931] (-) TimerEvent: {}
+[110.094360] (-) TimerEvent: {}
+[110.194829] (-) TimerEvent: {}
+[110.295283] (-) TimerEvent: {}
+[110.395748] (-) TimerEvent: {}
+[110.496207] (-) TimerEvent: {}
+[110.596666] (-) TimerEvent: {}
+[110.697129] (-) TimerEvent: {}
+[110.797593] (-) TimerEvent: {}
+[110.898074] (-) TimerEvent: {}
+[110.998527] (-) TimerEvent: {}
+[111.098992] (-) TimerEvent: {}
+[111.199453] (-) TimerEvent: {}
+[111.300040] (-) TimerEvent: {}
+[111.401021] (-) TimerEvent: {}
+[111.502071] (-) TimerEvent: {}
+[111.603020] (-) TimerEvent: {}
+[111.703966] (-) TimerEvent: {}
+[111.805046] (-) TimerEvent: {}
+[111.905890] (-) TimerEvent: {}
+[112.006341] (-) TimerEvent: {}
+[112.106793] (-) TimerEvent: {}
+[112.207254] (-) TimerEvent: {}
+[112.307735] (-) TimerEvent: {}
+[112.408199] (-) TimerEvent: {}
+[112.508703] (-) TimerEvent: {}
+[112.609171] (-) TimerEvent: {}
+[112.709637] (-) TimerEvent: {}
+[112.810092] (-) TimerEvent: {}
+[112.910550] (-) TimerEvent: {}
+[113.011022] (-) TimerEvent: {}
+[113.111491] (-) TimerEvent: {}
+[113.212057] (-) TimerEvent: {}
+[113.313028] (-) TimerEvent: {}
+[113.413988] (-) TimerEvent: {}
+[113.515012] (-) TimerEvent: {}
+[113.615992] (-) TimerEvent: {}
+[113.716987] (-) TimerEvent: {}
+[113.817808] (-) TimerEvent: {}
+[113.918279] (-) TimerEvent: {}
+[114.018748] (-) TimerEvent: {}
+[114.119211] (-) TimerEvent: {}
+[114.219676] (-) TimerEvent: {}
+[114.320143] (-) TimerEvent: {}
+[114.420590] (-) TimerEvent: {}
+[114.521067] (-) TimerEvent: {}
+[114.621548] (-) TimerEvent: {}
+[114.722014] (-) TimerEvent: {}
+[114.822480] (-) TimerEvent: {}
+[114.922942] (-) TimerEvent: {}
+[115.023390] (-) TimerEvent: {}
+[115.123842] (-) TimerEvent: {}
+[115.224303] (-) TimerEvent: {}
+[115.324918] (-) TimerEvent: {}
+[115.425970] (-) TimerEvent: {}
+[115.526918] (-) TimerEvent: {}
+[115.627913] (-) TimerEvent: {}
+[115.728889] (-) TimerEvent: {}
+[115.829772] (-) TimerEvent: {}
+[115.930245] (-) TimerEvent: {}
+[116.030706] (-) TimerEvent: {}
+[116.131168] (-) TimerEvent: {}
+[116.231638] (-) TimerEvent: {}
+[116.332111] (-) TimerEvent: {}
+[116.432606] (-) TimerEvent: {}
+[116.533072] (-) TimerEvent: {}
+[116.633543] (-) TimerEvent: {}
+[116.734008] (-) TimerEvent: {}
+[116.834472] (-) TimerEvent: {}
+[116.934952] (-) TimerEvent: {}
+[117.035569] (-) TimerEvent: {}
+[117.136554] (-) TimerEvent: {}
+[117.237395] (-) TimerEvent: {}
+[117.337826] (-) TimerEvent: {}
+[117.438325] (-) TimerEvent: {}
+[117.538814] (-) TimerEvent: {}
+[117.639281] (-) TimerEvent: {}
+[117.739871] (-) TimerEvent: {}
+[117.840858] (-) TimerEvent: {}
+[117.941890] (-) TimerEvent: {}
+[118.042895] (-) TimerEvent: {}
+[118.143858] (-) TimerEvent: {}
+[118.244721] (-) TimerEvent: {}
+[118.345181] (-) TimerEvent: {}
+[118.445646] (-) TimerEvent: {}
+[118.546109] (-) TimerEvent: {}
+[118.646571] (-) TimerEvent: {}
+[118.747116] (-) TimerEvent: {}
+[118.847602] (-) TimerEvent: {}
+[118.948094] (-) TimerEvent: {}
+[119.048567] (-) TimerEvent: {}
+[119.149024] (-) TimerEvent: {}
+[119.249726] (-) TimerEvent: {}
+[119.350718] (-) TimerEvent: {}
+[119.451892] (-) TimerEvent: {}
+[119.552807] (-) TimerEvent: {}
+[119.653284] (-) TimerEvent: {}
+[119.753742] (-) TimerEvent: {}
+[119.854203] (-) TimerEvent: {}
+[119.954694] (-) TimerEvent: {}
+[120.055322] (-) TimerEvent: {}
+[120.156354] (-) TimerEvent: {}
+[120.257285] (-) TimerEvent: {}
+[120.358269] (-) TimerEvent: {}
+[120.459231] (-) TimerEvent: {}
+[120.559760] (-) TimerEvent: {}
+[120.660396] (-) TimerEvent: {}
+[120.761404] (-) TimerEvent: {}
+[120.862249] (-) TimerEvent: {}
+[120.962736] (-) TimerEvent: {}
+[121.063207] (-) TimerEvent: {}
+[121.163685] (-) TimerEvent: {}
+[121.264177] (-) TimerEvent: {}
+[121.364669] (-) TimerEvent: {}
+[121.465142] (-) TimerEvent: {}
+[121.565595] (-) TimerEvent: {}
+[121.666066] (-) TimerEvent: {}
+[121.766563] (-) TimerEvent: {}
+[121.867189] (-) TimerEvent: {}
+[121.967639] (-) TimerEvent: {}
+[122.068117] (-) TimerEvent: {}
+[122.168748] (-) TimerEvent: {}
+[122.269806] (-) TimerEvent: {}
+[122.370835] (-) TimerEvent: {}
+[122.472117] (-) TimerEvent: {}
+[122.573139] (-) TimerEvent: {}
+[122.674108] (-) TimerEvent: {}
+[122.775126] (-) TimerEvent: {}
+[122.876092] (-) TimerEvent: {}
+[122.976942] (-) TimerEvent: {}
+[123.077425] (-) TimerEvent: {}
+[123.178003] (-) TimerEvent: {}
+[123.279055] (-) TimerEvent: {}
+[123.380027] (-) TimerEvent: {}
+[123.480986] (-) TimerEvent: {}
+[123.581987] (-) TimerEvent: {}
+[123.682997] (-) TimerEvent: {}
+[123.784103] (-) TimerEvent: {}
+[123.885154] (-) TimerEvent: {}
+[123.986423] (-) TimerEvent: {}
+[124.087338] (-) TimerEvent: {}
+[124.187840] (-) TimerEvent: {}
+[124.288355] (-) TimerEvent: {}
+[124.388890] (-) TimerEvent: {}
+[124.489411] (-) TimerEvent: {}
+[124.589920] (-) TimerEvent: {}
+[124.690466] (-) TimerEvent: {}
+[124.790991] (-) TimerEvent: {}
+[124.891697] (-) TimerEvent: {}
+[124.992708] (-) TimerEvent: {}
+[125.093191] (-) TimerEvent: {}
+[125.193655] (-) TimerEvent: {}
+[125.294180] (-) TimerEvent: {}
+[125.394787] (-) TimerEvent: {}
+[125.495279] (-) TimerEvent: {}
+[125.595760] (-) TimerEvent: {}
+[125.696269] (-) TimerEvent: {}
+[125.796800] (-) TimerEvent: {}
+[125.897517] (-) TimerEvent: {}
+[125.998750] (-) TimerEvent: {}
+[126.099866] (-) TimerEvent: {}
+[126.200907] (-) TimerEvent: {}
+[126.301891] (-) TimerEvent: {}
+[126.402836] (-) TimerEvent: {}
+[126.503346] (-) TimerEvent: {}
+[126.603801] (-) TimerEvent: {}
+[126.704267] (-) TimerEvent: {}
+[126.804729] (-) TimerEvent: {}
+[126.905190] (-) TimerEvent: {}
+[127.005652] (-) TimerEvent: {}
+[127.106138] (-) TimerEvent: {}
+[127.206632] (-) TimerEvent: {}
+[127.307199] (-) TimerEvent: {}
+[127.408253] (-) TimerEvent: {}
+[127.509428] (-) TimerEvent: {}
+[127.610250] (-) TimerEvent: {}
+[127.710715] (-) TimerEvent: {}
+[127.811167] (-) TimerEvent: {}
+[127.911640] (-) TimerEvent: {}
+[128.012134] (-) TimerEvent: {}
+[128.112724] (-) TimerEvent: {}
+[128.213758] (-) TimerEvent: {}
+[128.317857] (-) TimerEvent: {}
+[128.418719] (-) TimerEvent: {}
+[128.519165] (-) TimerEvent: {}
+[128.619619] (-) TimerEvent: {}
+[128.720097] (-) TimerEvent: {}
+[128.820547] (-) TimerEvent: {}
+[128.921027] (-) TimerEvent: {}
+[129.021500] (-) TimerEvent: {}
+[129.121974] (-) TimerEvent: {}
+[129.222431] (-) TimerEvent: {}
+[129.322905] (-) TimerEvent: {}
+[129.423374] (-) TimerEvent: {}
+[129.523887] (-) TimerEvent: {}
+[129.624621] (-) TimerEvent: {}
+[129.725803] (-) TimerEvent: {}
+[129.826832] (-) TimerEvent: {}
+[129.927925] (-) TimerEvent: {}
+[130.028959] (-) TimerEvent: {}
+[130.130003] (-) TimerEvent: {}
+[130.231107] (-) TimerEvent: {}
+[130.332186] (-) TimerEvent: {}
+[130.433116] (-) TimerEvent: {}
+[130.533587] (-) TimerEvent: {}
+[130.634178] (-) TimerEvent: {}
+[130.734660] (-) TimerEvent: {}
+[130.835145] (-) TimerEvent: {}
+[130.935944] (-) TimerEvent: {}
+[131.037227] (-) TimerEvent: {}
+[131.138198] (-) TimerEvent: {}
+[131.239136] (-) TimerEvent: {}
+[131.340032] (-) TimerEvent: {}
+[131.440487] (-) TimerEvent: {}
+[131.540949] (-) TimerEvent: {}
+[131.641407] (-) TimerEvent: {}
+[131.741857] (-) TimerEvent: {}
+[131.842297] (-) TimerEvent: {}
+[131.942752] (-) TimerEvent: {}
+[132.043210] (-) TimerEvent: {}
+[132.143664] (-) TimerEvent: {}
+[132.244135] (-) TimerEvent: {}
+[132.344629] (-) TimerEvent: {}
+[132.445082] (-) TimerEvent: {}
+[132.545545] (-) TimerEvent: {}
+[132.646021] (-) TimerEvent: {}
+[132.746475] (-) TimerEvent: {}
+[132.847028] (-) TimerEvent: {}
+[132.948040] (-) TimerEvent: {}
+[133.049085] (-) TimerEvent: {}
+[133.150033] (-) TimerEvent: {}
+[133.251098] (-) TimerEvent: {}
+[133.352032] (-) TimerEvent: {}
+[133.452960] (-) TimerEvent: {}
+[133.553937] (-) TimerEvent: {}
+[133.654942] (-) TimerEvent: {}
+[133.755844] (-) TimerEvent: {}
+[133.856288] (-) TimerEvent: {}
+[133.956749] (-) TimerEvent: {}
+[134.057212] (-) TimerEvent: {}
+[134.157666] (-) TimerEvent: {}
+[134.258231] (-) TimerEvent: {}
+[134.358707] (-) TimerEvent: {}
+[134.459171] (-) TimerEvent: {}
+[134.559622] (-) TimerEvent: {}
+[134.660083] (-) TimerEvent: {}
+[134.760537] (-) TimerEvent: {}
+[134.860988] (-) TimerEvent: {}
+[134.961475] (-) TimerEvent: {}
+[135.061949] (-) TimerEvent: {}
+[135.162402] (-) TimerEvent: {}
+[135.262856] (-) TimerEvent: {}
+[135.363307] (-) TimerEvent: {}
+[135.463810] (-) TimerEvent: {}
+[135.564692] (-) TimerEvent: {}
+[135.665156] (-) TimerEvent: {}
+[135.765608] (-) TimerEvent: {}
+[135.866065] (-) TimerEvent: {}
+[135.966525] (-) TimerEvent: {}
+[136.066979] (-) TimerEvent: {}
+[136.167444] (-) TimerEvent: {}
+[136.267911] (-) TimerEvent: {}
+[136.368520] (-) TimerEvent: {}
+[136.469454] (-) TimerEvent: {}
+[136.570331] (-) TimerEvent: {}
+[136.670783] (-) TimerEvent: {}
+[136.771244] (-) TimerEvent: {}
+[136.871757] (-) TimerEvent: {}
+[136.972225] (-) TimerEvent: {}
+[137.072688] (-) TimerEvent: {}
+[137.173238] (-) TimerEvent: {}
+[137.274202] (-) TimerEvent: {}
+[137.375223] (-) TimerEvent: {}
+[137.476159] (-) TimerEvent: {}
+[137.577080] (-) TimerEvent: {}
+[137.677995] (-) TimerEvent: {}
+[137.778439] (-) TimerEvent: {}
+[137.878878] (-) TimerEvent: {}
+[137.979327] (-) TimerEvent: {}
+[138.079783] (-) TimerEvent: {}
+[138.180207] (-) TimerEvent: {}
+[138.280656] (-) TimerEvent: {}
+[138.381148] (-) TimerEvent: {}
+[138.481603] (-) TimerEvent: {}
+[138.582070] (-) TimerEvent: {}
+[138.682525] (-) TimerEvent: {}
+[138.782994] (-) TimerEvent: {}
+[138.883528] (-) TimerEvent: {}
+[138.983980] (-) TimerEvent: {}
+[139.084456] (-) TimerEvent: {}
+[139.184919] (-) TimerEvent: {}
+[139.285388] (-) TimerEvent: {}
+[139.385870] (-) TimerEvent: {}
+[139.486322] (-) TimerEvent: {}
+[139.586789] (-) TimerEvent: {}
+[139.687289] (-) TimerEvent: {}
+[139.787946] (-) TimerEvent: {}
+[139.889048] (-) TimerEvent: {}
+[139.989977] (-) TimerEvent: {}
+[140.090910] (-) TimerEvent: {}
+[140.191858] (-) TimerEvent: {}
+[140.292704] (-) TimerEvent: {}
+[140.393152] (-) TimerEvent: {}
+[140.493598] (-) TimerEvent: {}
+[140.594044] (-) TimerEvent: {}
+[140.694478] (-) TimerEvent: {}
+[140.794926] (-) TimerEvent: {}
+[140.895391] (-) TimerEvent: {}
+[140.995852] (-) TimerEvent: {}
+[141.096312] (-) TimerEvent: {}
+[141.196769] (-) TimerEvent: {}
+[141.297244] (-) TimerEvent: {}
+[141.397775] (-) TimerEvent: {}
+[141.498241] (-) TimerEvent: {}
+[141.598715] (-) TimerEvent: {}
+[141.699179] (-) TimerEvent: {}
+[141.799640] (-) TimerEvent: {}
+[141.900106] (-) TimerEvent: {}
+[142.000569] (-) TimerEvent: {}
+[142.101114] (-) TimerEvent: {}
+[142.201636] (-) TimerEvent: {}
+[142.302172] (-) TimerEvent: {}
+[142.403128] (-) TimerEvent: {}
+[142.504170] (-) TimerEvent: {}
+[142.605219] (-) TimerEvent: {}
+[142.706153] (-) TimerEvent: {}
+[142.807185] (-) TimerEvent: {}
+[142.908149] (-) TimerEvent: {}
+[143.009078] (-) TimerEvent: {}
+[143.110056] (-) TimerEvent: {}
+[143.210898] (-) TimerEvent: {}
+[143.311393] (-) TimerEvent: {}
+[143.411836] (-) TimerEvent: {}
+[143.512294] (-) TimerEvent: {}
+[143.612866] (-) TimerEvent: {}
+[143.713820] (-) TimerEvent: {}
+[143.814764] (-) TimerEvent: {}
+[143.915607] (-) TimerEvent: {}
+[144.016070] (-) TimerEvent: {}
+[144.116531] (-) TimerEvent: {}
+[144.216984] (-) TimerEvent: {}
+[144.317550] (-) TimerEvent: {}
+[144.418534] (-) TimerEvent: {}
+[144.519536] (-) TimerEvent: {}
+[144.620503] (-) TimerEvent: {}
+[144.721413] (-) TimerEvent: {}
+[144.821870] (-) TimerEvent: {}
+[144.922320] (-) TimerEvent: {}
+[145.022763] (-) TimerEvent: {}
+[145.123219] (-) TimerEvent: {}
+[145.223672] (-) TimerEvent: {}
+[145.324117] (-) TimerEvent: {}
+[145.424576] (-) TimerEvent: {}
+[145.525030] (-) TimerEvent: {}
+[145.625477] (-) TimerEvent: {}
+[145.725911] (-) TimerEvent: {}
+[145.826385] (-) TimerEvent: {}
+[145.926843] (-) TimerEvent: {}
+[146.027304] (-) TimerEvent: {}
+[146.127773] (-) TimerEvent: {}
+[146.228251] (-) TimerEvent: {}
+[146.328707] (-) TimerEvent: {}
+[146.429166] (-) TimerEvent: {}
+[146.529623] (-) TimerEvent: {}
+[146.630082] (-) TimerEvent: {}
+[146.730553] (-) TimerEvent: {}
+[146.831125] (-) TimerEvent: {}
+[146.932118] (-) TimerEvent: {}
+[147.033072] (-) TimerEvent: {}
+[147.134204] (-) TimerEvent: {}
+[147.235036] (-) TimerEvent: {}
+[147.335517] (-) TimerEvent: {}
+[147.435972] (-) TimerEvent: {}
+[147.536444] (-) TimerEvent: {}
+[147.636924] (-) TimerEvent: {}
+[147.737400] (-) TimerEvent: {}
+[147.837873] (-) TimerEvent: {}
+[147.938354] (-) TimerEvent: {}
+[148.038967] (-) TimerEvent: {}
+[148.139917] (-) TimerEvent: {}
+[148.240894] (-) TimerEvent: {}
+[148.341905] (-) TimerEvent: {}
+[148.442911] (-) TimerEvent: {}
+[148.543855] (-) TimerEvent: {}
+[148.644828] (-) TimerEvent: {}
+[148.745820] (-) TimerEvent: {}
+[148.846660] (-) TimerEvent: {}
+[148.947112] (-) TimerEvent: {}
+[149.047572] (-) TimerEvent: {}
+[149.148103] (-) TimerEvent: {}
+[149.248612] (-) TimerEvent: {}
+[149.349171] (-) TimerEvent: {}
+[149.450082] (-) TimerEvent: {}
+[149.550981] (-) TimerEvent: {}
+[149.651488] (-) TimerEvent: {}
+[149.751962] (-) TimerEvent: {}
+[149.852432] (-) TimerEvent: {}
+[149.952919] (-) TimerEvent: {}
+[150.053518] (-) TimerEvent: {}
+[150.154479] (-) TimerEvent: {}
+[150.255404] (-) TimerEvent: {}
+[150.356464] (-) TimerEvent: {}
+[150.457246] (-) TimerEvent: {}
+[150.557702] (-) TimerEvent: {}
+[150.658163] (-) TimerEvent: {}
+[150.758623] (-) TimerEvent: {}
+[150.859084] (-) TimerEvent: {}
+[150.959535] (-) TimerEvent: {}
+[151.059988] (-) TimerEvent: {}
+[151.160443] (-) TimerEvent: {}
+[151.260902] (-) TimerEvent: {}
+[151.361383] (-) TimerEvent: {}
+[151.461859] (-) TimerEvent: {}
+[151.562319] (-) TimerEvent: {}
+[151.662776] (-) TimerEvent: {}
+[151.763223] (-) TimerEvent: {}
+[151.863648] (-) TimerEvent: {}
+[151.964110] (-) TimerEvent: {}
+[152.064594] (-) TimerEvent: {}
+[152.165056] (-) TimerEvent: {}
+[152.265530] (-) TimerEvent: {}
+[152.365989] (-) TimerEvent: {}
+[152.466455] (-) TimerEvent: {}
+[152.566940] (-) TimerEvent: {}
+[152.667391] (-) TimerEvent: {}
+[152.767866] (-) TimerEvent: {}
+[152.868325] (-) TimerEvent: {}
+[152.968789] (-) TimerEvent: {}
+[153.069256] (-) TimerEvent: {}
+[153.169716] (-) TimerEvent: {}
+[153.270177] (-) TimerEvent: {}
+[153.370642] (-) TimerEvent: {}
+[153.471107] (-) TimerEvent: {}
+[153.571540] (-) TimerEvent: {}
+[153.671996] (-) TimerEvent: {}
+[153.772453] (-) TimerEvent: {}
+[153.872919] (-) TimerEvent: {}
+[153.973366] (-) TimerEvent: {}
+[154.073828] (-) TimerEvent: {}
+[154.174307] (-) TimerEvent: {}
+[154.274954] (-) TimerEvent: {}
+[154.375896] (-) TimerEvent: {}
+[154.476866] (-) TimerEvent: {}
+[154.577696] (-) TimerEvent: {}
+[154.678174] (-) TimerEvent: {}
+[154.778623] (-) TimerEvent: {}
+[154.879085] (-) TimerEvent: {}
+[154.979548] (-) TimerEvent: {}
+[155.080016] (-) TimerEvent: {}
+[155.180481] (-) TimerEvent: {}
+[155.280952] (-) TimerEvent: {}
+[155.381448] (-) TimerEvent: {}
+[155.481912] (-) TimerEvent: {}
+[155.582385] (-) TimerEvent: {}
+[155.682843] (-) TimerEvent: {}
+[155.783301] (-) TimerEvent: {}
+[155.883756] (-) TimerEvent: {}
+[155.984211] (-) TimerEvent: {}
+[156.084801] (-) TimerEvent: {}
+[156.185763] (-) TimerEvent: {}
+[156.286589] (-) TimerEvent: {}
+[156.387047] (-) TimerEvent: {}
+[156.487517] (-) TimerEvent: {}
+[156.587997] (-) TimerEvent: {}
+[156.688463] (-) TimerEvent: {}
+[156.788921] (-) TimerEvent: {}
+[156.889386] (-) TimerEvent: {}
+[156.989946] (-) TimerEvent: {}
+[157.090900] (-) TimerEvent: {}
+[157.191961] (-) TimerEvent: {}
+[157.292837] (-) TimerEvent: {}
+[157.393295] (-) TimerEvent: {}
+[157.493764] (-) TimerEvent: {}
+[157.594237] (-) TimerEvent: {}
+[157.694714] (-) TimerEvent: {}
+[157.795162] (-) TimerEvent: {}
+[157.895620] (-) TimerEvent: {}
+[157.996092] (-) TimerEvent: {}
+[158.096558] (-) TimerEvent: {}
+[158.197020] (-) TimerEvent: {}
+[158.297553] (-) TimerEvent: {}
+[158.398527] (-) TimerEvent: {}
+[158.499451] (-) TimerEvent: {}
+[158.600423] (-) TimerEvent: {}
+[158.701345] (-) TimerEvent: {}
+[158.802285] (-) TimerEvent: {}
+[158.903269] (-) TimerEvent: {}
+[159.004125] (-) TimerEvent: {}
+[159.104592] (-) TimerEvent: {}
+[159.205044] (-) TimerEvent: {}
+[159.305500] (-) TimerEvent: {}
+[159.405969] (-) TimerEvent: {}
+[159.506452] (-) TimerEvent: {}
+[159.606924] (-) TimerEvent: {}
+[159.707446] (-) TimerEvent: {}
+[159.807934] (-) TimerEvent: {}
+[159.908410] (-) TimerEvent: {}
+[160.009018] (-) TimerEvent: {}
+[160.110011] (-) TimerEvent: {}
+[160.210507] (-) TimerEvent: {}
+[160.311015] (-) TimerEvent: {}
+[160.411630] (-) TimerEvent: {}
+[160.512606] (-) TimerEvent: {}
+[160.613441] (-) TimerEvent: {}
+[160.713892] (-) TimerEvent: {}
+[160.814352] (-) TimerEvent: {}
+[160.914829] (-) TimerEvent: {}
+[161.015347] (-) TimerEvent: {}
+[161.115846] (-) TimerEvent: {}
+[161.216303] (-) TimerEvent: {}
+[161.316758] (-) TimerEvent: {}
+[161.417215] (-) TimerEvent: {}
+[161.517683] (-) TimerEvent: {}
+[161.618154] (-) TimerEvent: {}
+[161.718559] (-) TimerEvent: {}
+[161.819017] (-) TimerEvent: {}
+[161.919495] (-) TimerEvent: {}
+[162.020063] (-) TimerEvent: {}
+[162.121021] (-) TimerEvent: {}
+[162.222023] (-) TimerEvent: {}
+[162.323026] (-) TimerEvent: {}
+[162.423886] (-) TimerEvent: {}
+[162.524356] (-) TimerEvent: {}
+[162.624845] (-) TimerEvent: {}
+[162.725303] (-) TimerEvent: {}
+[162.825765] (-) TimerEvent: {}
+[162.926246] (-) TimerEvent: {}
+[163.026702] (-) TimerEvent: {}
+[163.127167] (-) TimerEvent: {}
+[163.227628] (-) TimerEvent: {}
+[163.328108] (-) TimerEvent: {}
+[163.428560] (-) TimerEvent: {}
+[163.529145] (-) TimerEvent: {}
+[163.630088] (-) TimerEvent: {}
+[163.731077] (-) TimerEvent: {}
+[163.831983] (-) TimerEvent: {}
+[163.932876] (-) TimerEvent: {}
+[164.033768] (-) TimerEvent: {}
+[164.134688] (-) TimerEvent: {}
+[164.235553] (-) TimerEvent: {}
+[164.336034] (-) TimerEvent: {}
+[164.436553] (-) TimerEvent: {}
+[164.537162] (-) TimerEvent: {}
+[164.638253] (-) TimerEvent: {}
+[164.739236] (-) TimerEvent: {}
+[164.840329] (-) TimerEvent: {}
+[164.941380] (-) TimerEvent: {}
+[165.042351] (-) TimerEvent: {}
+[165.143358] (-) TimerEvent: {}
+[165.244247] (-) TimerEvent: {}
+[165.344714] (-) TimerEvent: {}
+[165.445170] (-) TimerEvent: {}
+[165.545622] (-) TimerEvent: {}
+[165.646126] (-) TimerEvent: {}
+[165.746672] (-) TimerEvent: {}
+[165.847160] (-) TimerEvent: {}
+[165.947654] (-) TimerEvent: {}
+[166.048137] (-) TimerEvent: {}
+[166.148601] (-) TimerEvent: {}
+[166.249124] (-) TimerEvent: {}
+[166.349636] (-) TimerEvent: {}
+[166.450124] (-) TimerEvent: {}
+[166.550593] (-) TimerEvent: {}
+[166.651106] (-) TimerEvent: {}
+[166.751577] (-) TimerEvent: {}
+[166.852029] (-) TimerEvent: {}
+[166.952492] (-) TimerEvent: {}
+[167.052973] (-) TimerEvent: {}
+[167.153469] (-) TimerEvent: {}
+[167.254046] (-) TimerEvent: {}
+[167.355110] (-) TimerEvent: {}
+[167.456053] (-) TimerEvent: {}
+[167.557129] (-) TimerEvent: {}
+[167.658090] (-) TimerEvent: {}
+[167.759049] (-) TimerEvent: {}
+[167.860009] (-) TimerEvent: {}
+[167.960940] (-) TimerEvent: {}
+[168.061896] (-) TimerEvent: {}
+[168.162927] (-) TimerEvent: {}
+[168.263887] (-) TimerEvent: {}
+[168.364948] (-) TimerEvent: {}
+[168.465823] (-) TimerEvent: {}
+[168.566291] (-) TimerEvent: {}
+[168.666754] (-) TimerEvent: {}
+[168.767228] (-) TimerEvent: {}
+[168.867683] (-) TimerEvent: {}
+[168.968158] (-) TimerEvent: {}
+[169.068640] (-) TimerEvent: {}
+[169.169112] (-) TimerEvent: {}
+[169.269581] (-) TimerEvent: {}
+[169.370222] (-) TimerEvent: {}
+[169.471330] (-) TimerEvent: {}
+[169.572522] (-) TimerEvent: {}
+[169.673451] (-) TimerEvent: {}
+[169.774466] (-) TimerEvent: {}
+[169.875480] (-) TimerEvent: {}
+[169.976475] (-) TimerEvent: {}
+[170.077581] (-) TimerEvent: {}
+[170.178532] (-) TimerEvent: {}
+[170.279078] (-) TimerEvent: {}
+[170.380189] (-) TimerEvent: {}
+[170.481137] (-) TimerEvent: {}
+[170.581586] (-) TimerEvent: {}
+[170.682041] (-) TimerEvent: {}
+[170.782524] (-) TimerEvent: {}
+[170.883038] (-) TimerEvent: {}
+[170.983546] (-) TimerEvent: {}
+[171.084040] (-) TimerEvent: {}
+[171.185973] (-) TimerEvent: {}
+[171.286590] (-) TimerEvent: {}
+[171.387521] (-) TimerEvent: {}
+[171.488014] (-) TimerEvent: {}
+[171.588616] (-) TimerEvent: {}
+[171.689502] (-) TimerEvent: {}
+[171.789974] (-) TimerEvent: {}
+[171.890453] (-) TimerEvent: {}
+[171.991021] (-) TimerEvent: {}
+[172.091933] (-) TimerEvent: {}
+[172.192402] (-) TimerEvent: {}
+[172.292873] (-) TimerEvent: {}
+[172.393377] (-) TimerEvent: {}
+[172.493858] (-) TimerEvent: {}
+[172.594334] (-) TimerEvent: {}
+[172.694836] (-) TimerEvent: {}
+[172.795310] (-) TimerEvent: {}
+[172.895810] (-) TimerEvent: {}
+[172.996260] (-) TimerEvent: {}
+[173.096720] (-) TimerEvent: {}
+[173.197177] (-) TimerEvent: {}
+[173.297646] (-) TimerEvent: {}
+[173.398245] (-) TimerEvent: {}
+[173.499099] (-) TimerEvent: {}
+[173.599578] (-) TimerEvent: {}
+[173.700070] (-) TimerEvent: {}
+[173.800540] (-) TimerEvent: {}
+[173.900991] (-) TimerEvent: {}
+[174.001459] (-) TimerEvent: {}
+[174.101912] (-) TimerEvent: {}
+[174.202389] (-) TimerEvent: {}
+[174.302872] (-) TimerEvent: {}
+[174.403437] (-) TimerEvent: {}
+[174.504407] (-) TimerEvent: {}
+[174.605337] (-) TimerEvent: {}
+[174.706217] (-) TimerEvent: {}
+[174.806679] (-) TimerEvent: {}
+[174.907262] (-) TimerEvent: {}
+[175.008244] (-) TimerEvent: {}
+[175.109095] (-) TimerEvent: {}
+[175.209560] (-) TimerEvent: {}
+[175.310009] (-) TimerEvent: {}
+[175.410467] (-) TimerEvent: {}
+[175.510927] (-) TimerEvent: {}
+[175.611442] (-) TimerEvent: {}
+[175.711981] (-) TimerEvent: {}
+[175.812432] (-) TimerEvent: {}
+[175.912881] (-) TimerEvent: {}
+[176.013345] (-) TimerEvent: {}
+[176.113796] (-) TimerEvent: {}
+[176.214261] (-) TimerEvent: {}
+[176.314847] (-) TimerEvent: {}
+[176.415859] (-) TimerEvent: {}
+[176.516320] (-) TimerEvent: {}
+[176.616820] (-) TimerEvent: {}
+[176.717337] (-) TimerEvent: {}
+[176.817922] (-) TimerEvent: {}
+[176.918853] (-) TimerEvent: {}
+[177.019733] (-) TimerEvent: {}
+[177.120209] (-) TimerEvent: {}
+[177.220680] (-) TimerEvent: {}
+[177.321156] (-) TimerEvent: {}
+[177.421622] (-) TimerEvent: {}
+[177.522076] (-) TimerEvent: {}
+[177.622556] (-) TimerEvent: {}
+[177.723051] (-) TimerEvent: {}
+[177.823494] (-) TimerEvent: {}
+[177.923954] (-) TimerEvent: {}
+[178.024429] (-) TimerEvent: {}
+[178.124901] (-) TimerEvent: {}
+[178.225371] (-) TimerEvent: {}
+[178.325830] (-) TimerEvent: {}
+[178.426315] (-) TimerEvent: {}
+[178.526942] (-) TimerEvent: {}
+[178.627876] (-) TimerEvent: {}
+[178.728841] (-) TimerEvent: {}
+[178.829775] (-) TimerEvent: {}
+[178.930696] (-) TimerEvent: {}
+[179.031656] (-) TimerEvent: {}
+[179.132638] (-) TimerEvent: {}
+[179.233534] (-) TimerEvent: {}
+[179.334342] (-) TimerEvent: {}
+[179.434810] (-) TimerEvent: {}
+[179.535278] (-) TimerEvent: {}
+[179.635737] (-) TimerEvent: {}
+[179.736191] (-) TimerEvent: {}
+[179.836644] (-) TimerEvent: {}
+[179.937095] (-) TimerEvent: {}
+[180.037551] (-) TimerEvent: {}
+[180.138035] (-) TimerEvent: {}
+[180.238501] (-) TimerEvent: {}
+[180.339108] (-) TimerEvent: {}
+[180.440155] (-) TimerEvent: {}
+[180.541107] (-) TimerEvent: {}
+[180.598894] (lio_sam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_mapOptimization\x1b[0m\n'}
+[180.641307] (-) TimerEvent: {}
+[180.742215] (-) TimerEvent: {}
+[180.842676] (-) TimerEvent: {}
+[180.943171] (-) TimerEvent: {}
+[181.043682] (-) TimerEvent: {}
+[181.144238] (-) TimerEvent: {}
+[181.244759] (-) TimerEvent: {}
+[181.345257] (-) TimerEvent: {}
+[181.445706] (-) TimerEvent: {}
+[181.546199] (-) TimerEvent: {}
+[181.646738] (-) TimerEvent: {}
+[181.747214] (-) TimerEvent: {}
+[181.847737] (-) TimerEvent: {}
+[181.948225] (-) TimerEvent: {}
+[182.048708] (-) TimerEvent: {}
+[182.149172] (-) TimerEvent: {}
+[182.249666] (-) TimerEvent: {}
+[182.350170] (-) TimerEvent: {}
+[182.384675] (lio_sam) StderrLine: {'line': b'/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12\n'}
+[182.450296] (-) TimerEvent: {}
+[182.550769] (-) TimerEvent: {}
+[182.651246] (-) TimerEvent: {}
+[182.751718] (-) TimerEvent: {}
+[182.852170] (-) TimerEvent: {}
+[182.952801] (-) TimerEvent: {}
+[183.053781] (-) TimerEvent: {}
+[183.138824] (lio_sam) StdoutLine: {'line': b'[100%] Built target lio_sam_mapOptimization\n'}
+[183.153993] (-) TimerEvent: {}
+[183.185569] (lio_sam) CommandEnded: {'returncode': 0}
+[183.189554] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'install'}
+[183.194514] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ztl/ROS_humble_LIO/build/lio_sam'], 'cwd': '/home/ztl/ROS_humble_LIO/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ztl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/lib:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam/lib:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces/lib:/home/ztl/project/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ztl'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1138'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e38796444bff260aed25fbd367c59363'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ztl/pointcloud2pcd/install:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install:/home/ztl/project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ztl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ztl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/3588:@/tmp/.ICE-unix/1138,unix/3588:/tmp/.ICE-unix/1138'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15001a7c_95e8_42c3_83ca_8e6400d20d5f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces:/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ztl/ROS_humble_LIO/build/lio_sam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e38796444bff260aed25fbd367c59363'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces/local/lib/python3.10/dist-packages:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam/local/lib/python3.10/dist-packages:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces/local/lib/python3.10/dist-packages:/home/ztl/project/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ztl/ROS_humble_LIO/install/autorccar_interfaces:/home/ztl/pointcloud2pcd/install/pointcloud2_to_pcd:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/lio_sam:/home/ztl/lio-sam/src/LIO/LIO-SAM_MID360_ROS2_PKG/ros2/install/autorccar_interfaces:/home/ztl/project/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[183.236647] (lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[183.237016] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam\n'}
+[183.237214] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam\n'}
+[183.237373] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[183.237536] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[183.238051] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h\n'}
+[183.238463] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h\n'}
+[183.238663] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h\n'}
+[183.238983] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.c\n'}
+[183.239952] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h\n'}
+[183.240238] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[183.240438] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[183.240595] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.c\n'}
+[183.241163] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h\n'}
+[183.242041] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[183.242802] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h\n'}
+[183.243523] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h\n'}
+[183.244269] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[183.244939] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/environment/library_path.sh\n'}
+[183.245640] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/environment/library_path.dsv\n'}
+[183.246368] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so\n'}
+[183.247098] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""\n'}
+[183.247822] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam\n'}
+[183.248509] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[183.249181] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[183.249834] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[183.250563] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[183.251215] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[183.251979] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[183.252756] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[183.253694] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[183.254925] (-) TimerEvent: {}
+[183.255562] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[183.256304] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam\n'}
+[183.257123] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[183.258223] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[183.259062] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.c\n'}
+[183.259866] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[183.260709] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[183.261358] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[183.261657] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[183.261883] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.c\n'}
+[183.262180] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[183.262351] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[183.262509] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""\n'}
+[183.262662] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so\n'}
+[183.262809] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""\n'}
+[183.263040] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam\n'}
+[183.263226] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[183.263387] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[183.263536] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp\n'}
+[183.263818] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp\n'}
+[183.263976] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp\n'}
+[183.264313] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[183.264510] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp\n'}
+[183.264676] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[183.264831] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[183.264979] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[183.265202] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[183.265376] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[183.265529] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[183.265677] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[183.266590] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp\n'}
+[183.266782] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam\n'}
+[183.266948] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[183.267098] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[183.267250] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/dds_fastrtps\n'}
+[183.267392] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[183.267531] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[183.267669] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[183.267829] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/dds_fastrtps\n'}
+[183.267978] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[183.268117] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[183.268254] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[183.268392] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[183.268532] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam\n'}
+[183.268668] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[183.268802] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[183.268936] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.cpp\n'}
+[183.269071] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[183.269209] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[183.269344] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[183.269481] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.cpp\n'}
+[183.269620] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[183.269759] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[183.269894] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[183.270031] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so\n'}
+[183.270166] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""\n'}
+[183.270312] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/environment/pythonpath.sh\n'}
+[183.270449] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/environment/pythonpath.dsv\n'}
+[183.270583] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info\n'}
+[183.270719] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[183.270857] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[183.270995] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[183.271145] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[183.271291] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam\n'}
+[183.271429] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c\n'}
+[183.271568] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[183.271707] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py\n'}
+[183.271842] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv\n'}
+[183.271990] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py\n'}
+[183.272133] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py\n'}
+[183.272268] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c\n'}
+[183.272412] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[183.272549] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg\n'}
+[183.272684] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py\n'}
+[183.272821] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c\n'}
+[183.272955] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py\n'}
+[183.273089] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[183.273227] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[183.273367] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[183.273510] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so\n'}
+[183.355046] (-) TimerEvent: {}
+[183.365469] (lio_sam) StdoutLine: {'line': b"Listing '/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...\n"}
+[183.366531] (lio_sam) StdoutLine: {'line': b"Compiling '/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py'...\n"}
+[183.367358] (lio_sam) StdoutLine: {'line': b"Listing '/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...\n"}
+[183.368187] (lio_sam) StdoutLine: {'line': b"Compiling '/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py'...\n"}
+[183.368956] (lio_sam) StdoutLine: {'line': b"Compiling '/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py'...\n"}
+[183.369789] (lio_sam) StdoutLine: {'line': b"Listing '/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...\n"}
+[183.370579] (lio_sam) StdoutLine: {'line': b"Compiling '/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py'...\n"}
+[183.371464] (lio_sam) StdoutLine: {'line': b"Compiling '/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py'...\n"}
+[183.380817] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[183.382154] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[183.383226] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[183.384242] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[183.385200] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[183.386142] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[183.387006] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so\n'}
+[183.387314] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""\n'}
+[183.387519] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/msg/CloudInfo.idl\n'}
+[183.387833] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/srv/SaveMap.idl\n'}
+[183.387989] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/msg/CloudInfo.msg\n'}
+[183.388130] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/srv/SaveMap.srv\n'}
+[183.388545] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg\n'}
+[183.388724] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg\n'}
+[183.388887] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam//launch\n'}
+[183.389034] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam//launch/run.launch.py\n'}
+[183.389171] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam//config\n'}
+[183.389306] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam//config/robot.urdf.xacro\n'}
+[183.389513] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam//config/rviz2.rviz\n'}
+[183.389853] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam//config/params.yaml\n'}
+[183.390904] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/lio_sam/lio_sam_imageProjection\n'}
+[183.404374] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/lio_sam/lio_sam_imageProjection" to ""\n'}
+[183.404880] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration\n'}
+[183.418054] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration" to ""\n'}
+[183.418462] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction\n'}
+[183.425711] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction" to ""\n'}
+[183.427375] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization\n'}
+[183.432610] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/ztl/ROS_humble_LIO/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization" to ""\n'}
+[183.433605] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include\n'}
+[183.434539] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam\n'}
+[183.436152] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/include/lio_sam/utility.hpp\n'}
+[183.436625] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam\n'}
+[183.436812] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam\n'}
+[183.437038] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh\n'}
+[183.437207] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv\n'}
+[183.437412] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/environment/path.sh\n'}
+[183.437593] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/environment/path.dsv\n'}
+[183.437750] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/local_setup.bash\n'}
+[183.437894] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/local_setup.sh\n'}
+[183.438030] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/local_setup.zsh\n'}
+[183.438221] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/local_setup.dsv\n'}
+[183.438369] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/package.dsv\n'}
+[183.438509] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/ament_index/resource_index/packages/lio_sam\n'}
+[183.439133] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake\n'}
+[183.439917] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[183.440632] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[183.441449] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[183.442254] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[183.443110] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[183.443969] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[183.444540] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[183.444731] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake\n'}
+[183.445119] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[183.445317] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[183.445484] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[183.445774] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[183.446010] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[183.446501] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[183.446853] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake\n'}
+[183.447301] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake\n'}
+[183.447676] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[183.448047] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[183.448414] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[183.448817] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[183.449200] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[183.449688] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[183.450042] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[183.450386] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake\n'}
+[183.450738] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake\n'}
+[183.451089] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/ztl/ROS_humble_LIO/install/lio_sam/share/lio_sam/package.xml\n'}
+[183.455647] (lio_sam) CommandEnded: {'returncode': 0}
+[183.463279] (-) TimerEvent: {}
+[183.538453] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 0}
+[183.540394] (-) EventReactorShutdown: {}

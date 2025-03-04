@@ -1,0 +1,43 @@
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:422:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klio_sam::save_mapRequest[m[K’ has not been declared
+  422 |     bool saveMapService([01;31m[Klio_sam[m[K::save_mapRequest& req, lio_sam::save_mapResponse& res)
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:422:56:[m[K [01;31m[Kerror: [m[K‘[01m[Klio_sam::save_mapResponse[m[K’ has not been declared
+  422 |     bool saveMapService(lio_sam::save_mapRequest& req, [01;31m[Klio_sam[m[K::save_mapResponse& res)
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In constructor ‘[01m[KmapOptimization::mapOptimization(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:238:80:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kbool mapOptimization::saveMapService(int&, int&)[m[K’
+  238 |         srvSaveMap = create_service<lio_sam::srv::SaveMap>("lio_sam/save_map", [01;31m[KsaveMapService[m[K);
+      |                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:422:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |     bool [01;36m[KsaveMapService[m[K(lio_sam::save_mapRequest& req, lio_sam::save_mapResponse& res)
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kbool mapOptimization::saveMapService(int&, int&)[m[K’:
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:428:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdestination[m[K’ in ‘[01m[Kreq[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  428 |             if(req.[01;31m[Kdestination[m[K.empty()) saveMapDirectory = std::getenv("HOME") + savePCDDirectory;
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:429:63:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdestination[m[K’ in ‘[01m[Kreq[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  429 |             else saveMapDirectory = std::getenv("HOME") + req.[01;31m[Kdestination[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:469:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresolution[m[K’ in ‘[01m[Kreq[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  469 |             if(req.[01;31m[Kresolution[m[K != 0)
+      |                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:492:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksuccess[m[K’ in ‘[01m[Kres[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  492 |             res.[01;31m[Ksuccess[m[K = ret == 0;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kvoid mapOptimization::visualizeGlobalMapThread()[m[K’:
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:507:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksave_mapRequest[m[K’ is not a member of ‘[01m[Klio_sam[m[K’
+  507 |             lio_sam::[01;31m[Ksave_mapRequest[m[K  req;
+      |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:508:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ksave_mapResponse[m[K’ is not a member of ‘[01m[Klio_sam[m[K’
+  508 |             lio_sam::[01;31m[Ksave_mapResponse[m[K res;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:510:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+  510 |             if(!saveMapService([01;31m[Kreq[m[K, res)){
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:510:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope
+  510 |             if(!saveMapService(req, [01;31m[Kres[m[K)){
+      |                                     [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76：CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:680：CMakeFiles/lio_sam_mapOptimization.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

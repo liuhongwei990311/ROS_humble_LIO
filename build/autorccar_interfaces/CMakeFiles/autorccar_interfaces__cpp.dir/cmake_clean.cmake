@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autorccar_interfaces__cpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/bounding_boxes.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/control_command.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/bounding_boxes__builder.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/bounding_boxes__struct.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/bounding_boxes__traits.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/bounding_boxes__type_support.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/control_command__builder.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/control_command__struct.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/control_command__traits.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/control_command__type_support.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/gnss__builder.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/gnss__struct.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/gnss__traits.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/gnss__type_support.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/imu__builder.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/imu__struct.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/imu__traits.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/imu__type_support.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/nav_state__builder.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/nav_state__struct.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/nav_state__traits.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/nav_state__type_support.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/path__builder.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/path__struct.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/path__traits.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/path__type_support.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/path_point__builder.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/path_point__struct.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/path_point__traits.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/detail/path_point__type_support.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/gnss.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/imu.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/nav_state.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/path.hpp"
+  "rosidl_generator_cpp/autorccar_interfaces/msg/path_point.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/autorccar_interfaces__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

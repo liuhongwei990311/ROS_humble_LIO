@@ -1,0 +1,62 @@
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_c[0m
+[  2%] Built target lio_sam__cpp
+[  2%] Built target ament_cmake_python_copy_lio_sam
+[ 10%] Built target lio_sam__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c[0m
+[ 19%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[ 27%] Built target lio_sam__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c[0m
+[ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[ 44%] Built target lio_sam__rosidl_typesupport_cpp
+[ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[ 61%] Built target lio_sam__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target lio_sam_featureExtraction[0m
+[35m[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization[0m
+[35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[ 61%] Built target lio_sam
+[ 63%] Built target lio_sam__py
+[ 68%] Built target lio_sam_imageProjection
+[ 72%] Built target lio_sam_imuPreintegration
+[ 76%] Built target lio_sam_featureExtraction
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_py[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[ 85%] Built target lio_sam__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext[0m
+[ 89%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target lio_sam__rosidl_typesupport_c__pyext
+running egg_info
+writing lio_sam.egg-info/PKG-INFO
+writing dependency_links to lio_sam.egg-info/dependency_links.txt
+writing top-level names to lio_sam.egg-info/top_level.txt
+reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In constructor ‘[01m[KmapOptimization::mapOptimization(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:238:80:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kbool mapOptimization::saveMapService()[m[K’
+  238 |         srvSaveMap = create_service<lio_sam::srv::SaveMap>("lio_sam/save_map", [01;31m[KsaveMapService[m[K);
+      |                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:422:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |     bool [01;36m[KsaveMapService[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kbool mapOptimization::saveMapService()[m[K’:
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:428:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+  428 |             if([01;31m[Kreq[m[K.destination.empty()) saveMapDirectory = std::getenv("HOME") + savePCDDirectory;
+      |                [01;31m[K^~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:469:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+  469 |             if([01;31m[Kreq[m[K.resolution != 0)
+      |                [01;31m[K^~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:492:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope; did you mean ‘[01m[Kret[m[K’?
+  492 |             [01;31m[Kres[m[K.success = ret == 0;
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kret[m[K
+gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76：CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:680：CMakeFiles/lio_sam_mapOptimization.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

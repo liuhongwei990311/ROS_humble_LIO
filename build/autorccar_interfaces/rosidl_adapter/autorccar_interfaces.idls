@@ -1,0 +1,7 @@
+/home/ztl/ROS_humble_LIO/build/autorccar_interfaces/rosidl_adapter/autorccar_interfaces:msg/Imu.idl
+/home/ztl/ROS_humble_LIO/build/autorccar_interfaces/rosidl_adapter/autorccar_interfaces:msg/Gnss.idl
+/home/ztl/ROS_humble_LIO/build/autorccar_interfaces/rosidl_adapter/autorccar_interfaces:msg/NavState.idl
+/home/ztl/ROS_humble_LIO/build/autorccar_interfaces/rosidl_adapter/autorccar_interfaces:msg/ControlCommand.idl
+/home/ztl/ROS_humble_LIO/build/autorccar_interfaces/rosidl_adapter/autorccar_interfaces:msg/Path.idl
+/home/ztl/ROS_humble_LIO/build/autorccar_interfaces/rosidl_adapter/autorccar_interfaces:msg/PathPoint.idl
+/home/ztl/ROS_humble_LIO/build/autorccar_interfaces/rosidl_adapter/autorccar_interfaces:msg/BoundingBoxes.idl

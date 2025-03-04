@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/control_command__type_support.cpp.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/control_command__type_support.cpp.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/gnss__type_support.cpp.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/gnss__type_support.cpp.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/nav_state__type_support.cpp.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/nav_state__type_support.cpp.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/path__type_support.cpp.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/path__type_support.cpp.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/path_point__type_support.cpp.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/path_point__type_support.cpp.o.d"
+  "libautorccar_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libautorccar_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/control_command__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/control_command__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/gnss__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/nav_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/path__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/dds_fastrtps/path_point__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/gnss__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/nav_state__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autorccar_interfaces/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/autorccar_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

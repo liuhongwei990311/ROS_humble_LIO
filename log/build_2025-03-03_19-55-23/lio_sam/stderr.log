@@ -1,0 +1,21 @@
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In constructor ‘[01m[KmapOptimization::mapOptimization(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:238:80:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kbool mapOptimization::saveMapService()[m[K’
+  238 |         srvSaveMap = create_service<lio_sam::srv::SaveMap>("lio_sam/save_map", [01;31m[KsaveMapService[m[K);
+      |                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:422:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |     bool [01;36m[KsaveMapService[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kbool mapOptimization::saveMapService()[m[K’:
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:428:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+  428 |             if([01;31m[Kreq[m[K.destination.empty()) saveMapDirectory = std::getenv("HOME") + savePCDDirectory;
+      |                [01;31m[K^~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:469:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+  469 |             if([01;31m[Kreq[m[K.resolution != 0)
+      |                [01;31m[K^~~[m[K
+[01m[K/home/ztl/ROS_humble_LIO/src/LiDAR_IMU_FUSION_ROS2/src/mapOptmization.cpp:492:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope; did you mean ‘[01m[Kret[m[K’?
+  492 |             [01;31m[Kres[m[K.success = ret == 0;
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kret[m[K
+gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76：CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:680：CMakeFiles/lio_sam_mapOptimization.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

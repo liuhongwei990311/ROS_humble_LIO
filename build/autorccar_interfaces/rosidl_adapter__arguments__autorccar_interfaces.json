@@ -1,0 +1,12 @@
+{
+  "package_name": "autorccar_interfaces",
+  "non_idl_tuples": [
+    "/home/ztl/ROS_humble_LIO/src/autorccar_interfaces:msg/Imu.msg",
+    "/home/ztl/ROS_humble_LIO/src/autorccar_interfaces:msg/Gnss.msg",
+    "/home/ztl/ROS_humble_LIO/src/autorccar_interfaces:msg/NavState.msg",
+    "/home/ztl/ROS_humble_LIO/src/autorccar_interfaces:msg/ControlCommand.msg",
+    "/home/ztl/ROS_humble_LIO/src/autorccar_interfaces:msg/Path.msg",
+    "/home/ztl/ROS_humble_LIO/src/autorccar_interfaces:msg/PathPoint.msg",
+    "/home/ztl/ROS_humble_LIO/src/autorccar_interfaces:msg/BoundingBoxes.msg"
+  ]
+}

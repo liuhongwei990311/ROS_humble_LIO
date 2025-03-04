@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autorccar_interfaces__py",
+		"source" : "/home/ztl/ROS_humble_LIO/build/autorccar_interfaces/autorccar_interfaces__py"
+	}
+}

@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/bounding_boxes__type_support.c.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/bounding_boxes__type_support.c.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/control_command__type_support.c.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/control_command__type_support.c.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/gnss__type_support.c.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/gnss__type_support.c.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/imu__type_support.c.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/imu__type_support.c.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/nav_state__type_support.c.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/nav_state__type_support.c.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/path__type_support.c.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/path__type_support.c.o.d"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/path_point__type_support.c.o"
+  "CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/path_point__type_support.c.o.d"
+  "libautorccar_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libautorccar_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/bounding_boxes__type_support.c"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/control_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/control_command__type_support.c"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/gnss__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/gnss__type_support.c"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/imu__type_support.c"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/nav_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/nav_state__type_support.c"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/path__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/path__type_support.c"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/path_point__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/autorccar_interfaces/msg/detail/path_point__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/autorccar_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
